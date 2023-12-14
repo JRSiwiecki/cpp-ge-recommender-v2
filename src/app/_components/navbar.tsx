@@ -26,6 +26,14 @@ export default function navbar() {
       >
         Top Courses
       </Link>
+
+      <Link
+        href="/"
+        className="rounded-md border p-2 text-center text-xl 
+        text-yellow-400 transition duration-300 hover:bg-green-800"
+      >
+        About
+      </Link>
     </div>
   );
 }
