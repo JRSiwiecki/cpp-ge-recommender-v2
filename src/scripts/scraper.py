@@ -147,6 +147,7 @@ def categorize_courses(scraped_class_areas, catalog_year: int) -> list[dict]:
     return [area_map, section_map]
 
 
+# TODO: Possibly this function will be moved to tRPC/some other server-side function.
 def get_opencpp_api_data() -> dict:
     """
     Grabs all course data from the OpenCPP API. This API's source code can be found here:
@@ -160,6 +161,7 @@ def get_opencpp_api_data() -> dict:
     return json_object
 
 
+# TODO: Possibly this function will be moved to tRPC/some other server-side function.
 def recommend_courses(area_section, area_map, section_map, json_object):
     """
     Recommends courses based on the area_section requested, sorts them by
@@ -291,6 +293,7 @@ def recommend_courses(area_section, area_map, section_map, json_object):
     return course_gpas
 
 
+# TODO: Possibly this function will be moved to tRPC/some other server-side function.
 def get_top_courses(area_map, section_map, json_object) -> dict:
     """
     Returns the top five courses for each area section.
