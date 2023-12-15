@@ -56,7 +56,7 @@ def scrape_cpp_data(catalog_year: int):
     return class_areas
 
 
-def categorize_courses(scraped_class_areas, catalog_year: int) -> list[dict]:
+def categorize_courses(scraped_class_areas, catalog_year: int) -> dict:
     """
     Categorizes scraped data into area_map and section_map which contains
     an area's sections and a section's courses respectively. Maps these to .json
@@ -68,7 +68,7 @@ def categorize_courses(scraped_class_areas, catalog_year: int) -> list[dict]:
         catalog_year (int): Requested year to categorize.
 
     Returns:
-        list[dict]: A list containing first the area_map and second the section_map.
+        dict[str, Any]: A dict containing class data for the given year, mapped area to its section.
     """
     # top element is current area
     area_stack = []
@@ -135,16 +135,33 @@ def categorize_courses(scraped_class_areas, catalog_year: int) -> list[dict]:
     data_folder = os.path.join(os.path.dirname(__file__), "..", "data")
     os.makedirs(data_folder, exist_ok=True)
 
-    area_map_file = os.path.join(data_folder, f"area-map-{catalog_year}.json")
-    section_map_file = os.path.join(data_folder, f"section-map-{catalog_year}.json")
+    year_data = {
+        "year": catalog_year,
+        "areas": [],
+    }
 
-    with open(area_map_file, "w") as area_file:
-        json.dump(area_map, area_file, indent=2)
+    for area, sections in area_map.items():
+        area_data = {
+            "area": area,
+            "sections": [],
+        }
 
-    with open(section_map_file, "w") as section_file:
-        json.dump(section_map, section_file, indent=2)
+        for section, courses in section_map.items():
+            if section in sections:
+                section_data = {
+                    "section": section,
+                    "courses": courses,
+                }
+                area_data["sections"].append(section_data)
 
-    return [area_map, section_map]
+        year_data["areas"].append(area_data)
+
+    year_file = os.path.join(data_folder, f"course-data-{catalog_year}.json")
+
+    with open(year_file, "w") as data_file:
+        json.dump(year_data, data_file, indent=2)
+
+    return year_data
 
 
 # TODO: Possibly this function will be moved to tRPC/some other server-side function.
