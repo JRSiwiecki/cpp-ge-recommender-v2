@@ -56,7 +56,7 @@ def scrape_cpp_data(catalog_year: int):
     return class_areas
 
 
-def categorize_courses(scraped_class_areas, catalog_year: int) -> dict:
+def categorize_courses(scraped_class_areas, open_cpp_data, catalog_year: int) -> dict:
     """
     Categorizes scraped data into area_map and section_map which contains
     an area's sections and a section's courses respectively. Maps these to .json
@@ -65,6 +65,7 @@ def categorize_courses(scraped_class_areas, catalog_year: int) -> dict:
     Args:
         scraped_class_areas (ResultSet[Any]): Scraped data from the CPP catalog that contains
         all areas for a catalog year.
+        open_cpp_data (dict): JSON object containing all course data for CPP.
         catalog_year (int): Requested year to categorize.
 
     Returns:
@@ -150,8 +151,22 @@ def categorize_courses(scraped_class_areas, catalog_year: int) -> dict:
             if section in sections:
                 section_data = {
                     "section": section,
-                    "courses": courses,
+                    "courses": [],
                 }
+
+                for course in courses:
+                    course_data = {
+                        "courseCode": course,
+                        "averageGPA": None,
+                    }
+
+                    # Find the corresponding OpenCPP API data for the course
+                    for api_course in open_cpp_data:
+                        if course_data["courseCode"] in api_course["Label"]:
+                            course_data["averageGPA"] = api_course["AvgGPA"]
+
+                    section_data["courses"].append(course_data)
+
                 area_data["sections"].append(section_data)
 
         year_data["areas"].append(area_data)
@@ -430,9 +445,14 @@ def get_course_title(full_course_name: str) -> str:
 def main():
     catalog_years = [2021, 2022, 2023]
 
+    # CURRENTLY THIS IS BROKEN!!!
+    # Though data is still current, just doesn't have averageGPAs attached.
+    # TODO: WAIT until OpenCPPAPI is back!
+    open_cpp_data = get_opencpp_api_data()
+
     for catalog_year in catalog_years:
         class_areas = scrape_cpp_data(catalog_year)
-        categorize_courses(class_areas, catalog_year)
+        categorize_courses(class_areas, open_cpp_data, catalog_year)
 
 
 if __name__ == "__main__":
