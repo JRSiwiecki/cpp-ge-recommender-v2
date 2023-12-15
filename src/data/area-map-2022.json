@@ -1,0 +1,30 @@
+{
+  "A": [
+    "1. Oral Communication",
+    "2. Written Communication",
+    "3. Critical Thinking"
+  ],
+  "B": [
+    "1. Physical Sciences",
+    "2. Life Sciences",
+    "3. Laboratory Activity",
+    "4. Mathematics/Quantitative Reasoning",
+    "5. Science and Technology Synthesis"
+  ],
+  "C": [
+    "1. Visual and Performing Arts",
+    "2. Literature, Modern Languages, Philosophy and Civilization",
+    "3. Arts and Humanities Synthesis"
+  ],
+  "D": [
+    "1. U.S. History and American Ideals",
+    "2. U.S. Constitution and California Government",
+    "4. Social Science Synthesis"
+  ],
+  "E": [
+    "0. Lifelong Learning and Self-Development"
+  ],
+  "F": [
+    "0. Ethnic Studies"
+  ]
+}
