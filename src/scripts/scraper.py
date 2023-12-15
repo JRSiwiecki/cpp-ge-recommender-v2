@@ -1,3 +1,4 @@
+import os
 import requests
 import json
 from bs4 import BeautifulSoup
@@ -55,14 +56,16 @@ def scrape_cpp_data(catalog_year: int):
     return class_areas
 
 
-def categorize_courses(scraped_class_areas) -> list[dict]:
+def categorize_courses(scraped_class_areas, catalog_year: int) -> list[dict]:
     """
     Categorizes scraped data into area_map and section_map which contains
-    an area's sections and a section's courses respectively.
+    an area's sections and a section's courses respectively. Maps these to .json
+    files by area/section and year.
 
     Args:
         scraped_class_areas (ResultSet[Any]): Scraped data from the CPP catalog that contains
         all areas for a catalog year.
+        catalog_year (int): Requested year to categorize.
 
     Returns:
         list[dict]: A list containing first the area_map and second the section_map.
@@ -127,6 +130,19 @@ def categorize_courses(scraped_class_areas) -> list[dict]:
     # hard code solution for E and F
     area_map["E"].append("0. Lifelong Learning and Self-Development")
     area_map["F"].append("0. Ethnic Studies")
+
+    # Create a 'data' folder if it doesn't exist
+    data_folder = os.path.join(os.path.dirname(__file__), "..", "data")
+    os.makedirs(data_folder, exist_ok=True)
+
+    area_map_file = os.path.join(data_folder, f"area-map-{catalog_year}.json")
+    section_map_file = os.path.join(data_folder, f"section-map-{catalog_year}.json")
+
+    with open(area_map_file, "w") as area_file:
+        json.dump(area_map, area_file, indent=2)
+
+    with open(section_map_file, "w") as section_file:
+        json.dump(section_map, section_file, indent=2)
 
     return [area_map, section_map]
 
@@ -392,9 +408,11 @@ def get_course_title(full_course_name: str) -> str:
 
 
 def main():
-    catalog_year = 2021
-    class_areas = scrape_cpp_data(catalog_year)
-    categorize_courses(class_areas)
+    catalog_years = [2021, 2022, 2023]
+
+    for catalog_year in catalog_years:
+        class_areas = scrape_cpp_data(catalog_year)
+        categorize_courses(class_areas, catalog_year)
 
 
 if __name__ == "__main__":
