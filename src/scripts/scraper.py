@@ -2,21 +2,6 @@ import requests
 import json
 from bs4 import BeautifulSoup
 
-CATALOG_URLS = {
-    2021: "https://catalog.cpp.edu/preview_program.php?catoid=57&poid=14912",
-    2022: "https://catalog.cpp.edu/preview_program.php?catoid=61&poid=15936",
-    2023: "https://catalog.cpp.edu/preview_program.php?catoid=65&poid=17161",
-}
-"""
-Only valid catalog urls, catalogs before 2021 have some varying structure that
-I will not be dealing with!
-"""
-
-VALID_YEARS = [2021, 2022, 2023]
-"""
-Valid years for CPP catalogs.
-"""
-
 LANGUAGE_CLASSES_FILTER = [
     "Chinese",
     "French",
@@ -26,29 +11,6 @@ LANGUAGE_CLASSES_FILTER = [
 """
 List of most language classes offered at CPP so that we can avoid adding them
 to results.
-"""
-
-VALID_AREA_SECTIONS = [
-    "A1",
-    "A2",
-    "A3",
-    "B1",
-    "B2",
-    "B4",
-    "B5",
-    "C1",
-    "C2",
-    "C3",
-    "D1",
-    "D2",
-    "D4",
-    "E0",
-    "F0",
-    "E",
-    "F",
-]
-"""
-Valid area sections that exist for CPP classes.
 """
 
 
@@ -67,8 +29,23 @@ def scrape_cpp_data(catalog_year: int):
     if not isinstance(catalog_year, int):
         raise TypeError("Invalid input, catalog_year must be an int.")
 
+    VALID_YEARS = [2021, 2022, 2023]
+    """
+    Valid years for CPP catalogs.
+    """
+
     if catalog_year not in VALID_YEARS:
         raise ValueError(f"{catalog_year} is not a valid catalog year.")
+
+    CATALOG_URLS = {
+        2021: "https://catalog.cpp.edu/preview_program.php?catoid=57&poid=14912",
+        2022: "https://catalog.cpp.edu/preview_program.php?catoid=61&poid=15936",
+        2023: "https://catalog.cpp.edu/preview_program.php?catoid=65&poid=17161",
+    }
+    """
+    Only valid catalog urls, catalogs before 2021 have some varying structure that
+    I will not be dealing with!
+    """
 
     url = CATALOG_URLS.get(catalog_year)
     page = requests.get(url)
@@ -190,6 +167,29 @@ def recommend_courses(area_section, area_map, section_map, json_object):
 
     requested_area = requested_data[0].upper()
     requested_section = requested_data[1]
+
+    VALID_AREA_SECTIONS = [
+        "A1",
+        "A2",
+        "A3",
+        "B1",
+        "B2",
+        "B4",
+        "B5",
+        "C1",
+        "C2",
+        "C3",
+        "D1",
+        "D2",
+        "D4",
+        "E0",
+        "F0",
+        "E",
+        "F",
+    ]
+    """
+    Valid area sections that exist for CPP classes.
+    """
 
     if requested_area not in VALID_AREA_SECTIONS:
         raise ValueError(f"{requested_area} is an invalid area section.")
