@@ -18,7 +18,7 @@ export default function navbar() {
         Top Courses
       </Link>
 
-      <Link href="/" className={linkStylingClasses}>
+      <Link href="/about" className={linkStylingClasses}>
         About
       </Link>
     </div>
