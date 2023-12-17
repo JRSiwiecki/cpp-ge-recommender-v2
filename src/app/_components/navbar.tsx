@@ -3,9 +3,9 @@ import Link from "next/link";
 const linkStylingClasses = `rounded-md border p-2 text-center text-l 
         text-yellow-400 transition duration-300 hover:bg-green-800 flex items-center m-1`;
 
-export default function navbar() {
+export default function Navbar() {
   return (
-    <div className="flex flex-grow flex-row justify-evenly bg-neutral-950 p-2">
+    <nav className="flex flex-grow flex-row justify-evenly bg-neutral-950 p-2">
       <Link href="/" className={linkStylingClasses}>
         Home
       </Link>
@@ -21,6 +21,6 @@ export default function navbar() {
       <Link href="/about" className={linkStylingClasses}>
         About
       </Link>
-    </div>
+    </nav>
   );
 }
