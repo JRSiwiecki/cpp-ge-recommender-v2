@@ -30,23 +30,19 @@ def scrape_cpp_data(catalog_year: int):
     if not isinstance(catalog_year, int):
         raise TypeError("Invalid input, catalog_year must be an int.")
 
+    # Valid years for CPP catalogs.
     VALID_YEARS = [2021, 2022, 2023]
-    """
-    Valid years for CPP catalogs.
-    """
 
     if catalog_year not in VALID_YEARS:
         raise ValueError(f"{catalog_year} is not a valid catalog year.")
 
+    # Only valid catalog urls, catalogs before 2021 have some varying structure that
+    # I will not be dealing with!
     CATALOG_URLS = {
         2021: "https://catalog.cpp.edu/preview_program.php?catoid=57&poid=14912",
         2022: "https://catalog.cpp.edu/preview_program.php?catoid=61&poid=15936",
         2023: "https://catalog.cpp.edu/preview_program.php?catoid=65&poid=17161",
     }
-    """
-    Only valid catalog urls, catalogs before 2021 have some varying structure that
-    I will not be dealing with!
-    """
 
     url = CATALOG_URLS.get(catalog_year)
     page = requests.get(url)
@@ -218,6 +214,7 @@ def recommend_courses(area_section, area_map, section_map, json_object):
     requested_area = requested_data[0].upper()
     requested_section = requested_data[1]
 
+    # Valid area sections that exist for CPP classes.
     VALID_AREA_SECTIONS = [
         "A1",
         "A2",
@@ -237,9 +234,6 @@ def recommend_courses(area_section, area_map, section_map, json_object):
         "E",
         "F",
     ]
-    """
-    Valid area sections that exist for CPP classes.
-    """
 
     if requested_area not in VALID_AREA_SECTIONS:
         raise ValueError(f"{requested_area} is an invalid area section.")
