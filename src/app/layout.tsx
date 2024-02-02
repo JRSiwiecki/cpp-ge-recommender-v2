@@ -15,9 +15,6 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "CPP GE Recommender",
-  description: `Home page for CPP GE Recommender, 
-    containing what this project aims to do and how to use it.`,
   icons: [{ rel: "icon", url: "/favicon.ico" }],
 };
 
