@@ -454,7 +454,7 @@ def get_course_label(full_course_name: str) -> str:
         raise TypeError("Invalid full_course_name type, must be a string.")
 
     # only want the course label before the " - " separating class code from title
-    end_marker = full_course_name.index("-") - 2
+    end_marker = full_course_name.index("-") - 1
     return full_course_name[:end_marker]
 
 
