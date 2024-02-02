@@ -7,22 +7,40 @@
         {
           "section": "1. Oral Communication",
           "courses": [
-            "COM 1100 - Public Speaking",
-            "COM 2204 - Advocacy and Argument"
+            {
+              "courseCode": "COM 1100 - Public Speaking",
+              "averageGPA": 2.8257499999999998
+            },
+            {
+              "courseCode": "COM 2204 - Advocacy and Argument",
+              "averageGPA": 2.773294346978558
+            }
           ]
         },
         {
           "section": "2. Written Communication",
           "courses": [
-            "ENG 1101 - Stretch Composition II",
-            "ENG 1103 - First Year Composition"
+            {
+              "courseCode": "ENG 1101 - Stretch Composition II",
+              "averageGPA": null
+            },
+            {
+              "courseCode": "ENG 1103 - First Year Composition",
+              "averageGPA": null
+            }
           ]
         },
         {
           "section": "3. Critical Thinking",
           "courses": [
-            "ENG 2105 - Written Reasoning",
-            "PHL 2020 - Critical Thinking"
+            {
+              "courseCode": "ENG 2105 - Written Reasoning",
+              "averageGPA": 3.0992831541218635
+            },
+            {
+              "courseCode": "PHL 2020 - Critical Thinking",
+              "averageGPA": 3.625
+            }
           ]
         }
       ]
@@ -33,54 +51,183 @@
         {
           "section": "1. Physical Sciences",
           "courses": [
-            "AST 1010 - Stars, Galaxies, and the Universe",
-            "CHM 1010 - Chemistry in Our World",
-            "CHM 1010L - Chemistry in Our World Laboratory",
-            "CHM 1210 - General Chemistry I",
-            "CHM 1210L - General Chemistry Laboratory I",
-            "CHM 1220 - General Chemistry II",
-            "CHM 1220L - General Chemistry Laboratory II",
-            "CHM 2120 - Chemistry for Elementary Educators",
-            "CHM 2120L - Chemistry for Elementary Educators Laboratory",
-            "GEO 1010 - Physical Geography",
-            "GEO 1010L - Physical Geography Lab",
-            "GSC 1100 - Water in a Changing World",
-            "GSC 1110 - Principles of Geology",
-            "GSC 1410L - Principles of Geology Laboratory",
-            "GSC 1120 - Earth, Time, and Life",
-            "GSC 1510L - Earth, Time, and Life Laboratory",
-            "GSC 1160 - Introduction to Astronomy",
-            "GSC 1200 - Introduction to Oceanography",
-            "GSC 1950 - Living in Earthquake Country",
-            "GSC 2120 - Earth Science for Elementary Educators",
-            "GSC 2120L - Earth Science for Elementary Educators Laboratory",
-            "PHY 1020 - Fundamentals of Physics",
-            "PHY 1050 - The Physics of Musical Sound",
-            "PHY 1050L - Physics of Musical Sound Laboratory",
-            "PHY 1210 - Physics of Motion, Fluids, and Heat",
-            "PHY 1210L - Physics of Motion, Fluids, and Heat Laboratory",
-            "PHY 1510 - Introduction to Newtonian Mechanics",
-            "PHY 1510L - Newtonian Mechanics Laboratory",
-            "PHY 2120 - Physical Science for Elementary Educators",
-            "PHY 2120L - Physical Science for Elementary Educators Laboratory"
+            {
+              "courseCode": "AST 1010 - Stars, Galaxies, and the Universe",
+              "averageGPA": 2.973684210526316
+            },
+            {
+              "courseCode": "CHM 1010 - Chemistry in Our World",
+              "averageGPA": 3.0064935064935066
+            },
+            {
+              "courseCode": "CHM 1010L - Chemistry in Our World Laboratory",
+              "averageGPA": 3.0064935064935066
+            },
+            {
+              "courseCode": "CHM 1210 - General Chemistry I",
+              "averageGPA": 2.853691275167786
+            },
+            {
+              "courseCode": "CHM 1210L - General Chemistry Laboratory I",
+              "averageGPA": 2.853691275167786
+            },
+            {
+              "courseCode": "CHM 1220 - General Chemistry II",
+              "averageGPA": 2.8257674886763966
+            },
+            {
+              "courseCode": "CHM 1220L - General Chemistry Laboratory II",
+              "averageGPA": 2.8257674886763966
+            },
+            {
+              "courseCode": "CHM 2120 - Chemistry for Elementary Educators",
+              "averageGPA": 3.556
+            },
+            {
+              "courseCode": "CHM 2120L - Chemistry for Elementary Educators Laboratory",
+              "averageGPA": 3.556
+            },
+            {
+              "courseCode": "GEO 1010 - Physical Geography",
+              "averageGPA": 2.9839295542102366
+            },
+            {
+              "courseCode": "GEO 1010L - Physical Geography Lab",
+              "averageGPA": 2.9839295542102366
+            },
+            {
+              "courseCode": "GSC 1100 - Water in a Changing World",
+              "averageGPA": 2.7144144144144144
+            },
+            {
+              "courseCode": "GSC 1110 - Principles of Geology",
+              "averageGPA": 3.324021592442646
+            },
+            {
+              "courseCode": "GSC 1410L - Principles of Geology Laboratory",
+              "averageGPA": 3.14923076923077
+            },
+            {
+              "courseCode": "GSC 1120 - Earth, Time, and Life",
+              "averageGPA": 2.511458333333333
+            },
+            {
+              "courseCode": "GSC 1510L - Earth, Time, and Life Laboratory",
+              "averageGPA": 3.084251968503937
+            },
+            {
+              "courseCode": "GSC 1160 - Introduction to Astronomy",
+              "averageGPA": 2.896560846560847
+            },
+            {
+              "courseCode": "GSC 1200 - Introduction to Oceanography",
+              "averageGPA": 3.9115427302996673
+            },
+            {
+              "courseCode": "GSC 1950 - Living in Earthquake Country",
+              "averageGPA": 2.387096774193549
+            },
+            {
+              "courseCode": "GSC 2120 - Earth Science for Elementary Educators",
+              "averageGPA": 3.733132530120482
+            },
+            {
+              "courseCode": "GSC 2120L - Earth Science for Elementary Educators Laboratory",
+              "averageGPA": 3.733132530120482
+            },
+            {
+              "courseCode": "PHY 1020 - Fundamentals of Physics",
+              "averageGPA": 2.603296703296703
+            },
+            {
+              "courseCode": "PHY 1050 - The Physics of Musical Sound",
+              "averageGPA": 2.940322580645161
+            },
+            {
+              "courseCode": "PHY 1050L - Physics of Musical Sound Laboratory",
+              "averageGPA": 2.940322580645161
+            },
+            {
+              "courseCode": "PHY 1210 - Physics of Motion, Fluids, and Heat",
+              "averageGPA": 3.1381235697940504
+            },
+            {
+              "courseCode": "PHY 1210L - Physics of Motion, Fluids, and Heat Laboratory",
+              "averageGPA": 3.1381235697940504
+            },
+            {
+              "courseCode": "PHY 1510 - Introduction to Newtonian Mechanics",
+              "averageGPA": 3.244198312236288
+            },
+            {
+              "courseCode": "PHY 1510L - Newtonian Mechanics Laboratory",
+              "averageGPA": 3.244198312236288
+            },
+            {
+              "courseCode": "PHY 2120 - Physical Science for Elementary Educators",
+              "averageGPA": 3.0673469387755103
+            },
+            {
+              "courseCode": "PHY 2120L - Physical Science for Elementary Educators Laboratory",
+              "averageGPA": 3.0673469387755103
+            }
           ]
         },
         {
           "section": "2. Life Sciences",
           "courses": [
-            "ANT 1010 - Introduction to Biological Anthropology",
-            "BIO 1020 - Plagues, Pandemics and Bioterrorism",
-            "BIO 1040 - What is Evolution?",
-            "BIO 1060 - Human Biology",
-            "BIO 1110 - Life Science",
-            "BIO 1110L - Life Science Laboratory",
-            "BIO 1150 - Basic Biology",
-            "BIO 1150L - Basic Biology Laboratory",
-            "BIO 1210 - Foundations of Biology: Energy, Matter, and Information",
-            "BIO 1210L - Foundations of Biology: Energy, Matter, and Information Laboratory",
-            "BIO 2120 - Life Science for Elementary Educators",
-            "BIO 2120L - Life Science for Elementary Educators Laboratory",
-            "GSC 2700 - Age of the Dinosaurs"
+            {
+              "courseCode": "ANT 1010 - Introduction to Biological Anthropology",
+              "averageGPA": 3.98125
+            },
+            {
+              "courseCode": "BIO 1020 - Plagues, Pandemics and Bioterrorism",
+              "averageGPA": 3.073846153846154
+            },
+            {
+              "courseCode": "BIO 1040 - What is Evolution?",
+              "averageGPA": 3.4786069651741296
+            },
+            {
+              "courseCode": "BIO 1060 - Human Biology",
+              "averageGPA": 3.0043731778425657
+            },
+            {
+              "courseCode": "BIO 1110 - Life Science",
+              "averageGPA": 3.510130446849848
+            },
+            {
+              "courseCode": "BIO 1110L - Life Science Laboratory",
+              "averageGPA": 3.510130446849848
+            },
+            {
+              "courseCode": "BIO 1150 - Basic Biology",
+              "averageGPA": 3.1205452127659576
+            },
+            {
+              "courseCode": "BIO 1150L - Basic Biology Laboratory",
+              "averageGPA": 3.1205452127659576
+            },
+            {
+              "courseCode": "BIO 1210 - Foundations of Biology: Energy, Matter, and Information",
+              "averageGPA": 3.2792723263506067
+            },
+            {
+              "courseCode": "BIO 1210L - Foundations of Biology: Energy, Matter, and Information Laboratory",
+              "averageGPA": 3.2792723263506067
+            },
+            {
+              "courseCode": "BIO 2120 - Life Science for Elementary Educators",
+              "averageGPA": 3.366666666666667
+            },
+            {
+              "courseCode": "BIO 2120L - Life Science for Elementary Educators Laboratory",
+              "averageGPA": 3.366666666666667
+            },
+            {
+              "courseCode": "GSC 2700 - Age of the Dinosaurs",
+              "averageGPA": 2.746067415730337
+            }
           ]
         },
         {
@@ -90,79 +237,283 @@
         {
           "section": "4. Mathematics/Quantitative Reasoning",
           "courses": [
-            "CS 2180 - Logic and Computing",
-            "PHL 2180 - Logic and Computing",
-            "MAT 1050 - College Algebra",
-            "MAT 1052 - College Algebra Stretch II",
-            "MAT 1055 - College Algebra with Support",
-            "MAT 1060 - Trigonometry",
-            "MAT 1070 - Precalculus",
-            "MAT 1140 - Calculus I",
-            "MAT 1150 - Calculus II",
-            "MAT 1200 - Calculus for Life Sciences",
-            "MAT 1250 - Introductory Calculus for Business",
-            "MAT 1300 - Technical Calculus I",
-            "MAT 1910 - Survey of Mathematics",
-            "MAT 1940 - Mathematical Concepts for Elementary School Teachers",
-            "STA 1200 - Statistics with Applications",
-            "STA 1202 - Statistics with Applications Stretch II",
-            "STA 1205 - Statistics with Applications with Support",
-            "STA 1300 - Biostatistics"
+            {
+              "courseCode": "CS 2180 - Logic and Computing",
+              "averageGPA": null
+            },
+            {
+              "courseCode": "PHL 2180 - Logic and Computing",
+              "averageGPA": 2.87741935483871
+            },
+            {
+              "courseCode": "MAT 1050 - College Algebra",
+              "averageGPA": null
+            },
+            {
+              "courseCode": "MAT 1052 - College Algebra Stretch II",
+              "averageGPA": null
+            },
+            {
+              "courseCode": "MAT 1055 - College Algebra with Support",
+              "averageGPA": null
+            },
+            {
+              "courseCode": "MAT 1060 - Trigonometry",
+              "averageGPA": 2.4446771978021977
+            },
+            {
+              "courseCode": "MAT 1070 - Precalculus",
+              "averageGPA": 2.5133333333333336
+            },
+            {
+              "courseCode": "MAT 1140 - Calculus I",
+              "averageGPA": 2.691094049904031
+            },
+            {
+              "courseCode": "MAT 1150 - Calculus II",
+              "averageGPA": 1.7025641025641027
+            },
+            {
+              "courseCode": "MAT 1200 - Calculus for Life Sciences",
+              "averageGPA": 2.7525773195876293
+            },
+            {
+              "courseCode": "MAT 1250 - Introductory Calculus for Business",
+              "averageGPA": 2.5768041237113404
+            },
+            {
+              "courseCode": "MAT 1300 - Technical Calculus I",
+              "averageGPA": 2.59950495049505
+            },
+            {
+              "courseCode": "MAT 1910 - Survey of Mathematics",
+              "averageGPA": 2.1063348416289593
+            },
+            {
+              "courseCode": "MAT 1940 - Mathematical Concepts for Elementary School Teachers",
+              "averageGPA": 2.555202312138728
+            },
+            {
+              "courseCode": "STA 1200 - Statistics with Applications",
+              "averageGPA": 2.389957264957265
+            },
+            {
+              "courseCode": "STA 1202 - Statistics with Applications Stretch II",
+              "averageGPA": 2.389957264957265
+            },
+            {
+              "courseCode": "STA 1205 - Statistics with Applications with Support",
+              "averageGPA": 2.389957264957265
+            },
+            {
+              "courseCode": "STA 1300 - Biostatistics",
+              "averageGPA": 2.945209302325581
+            }
           ]
         },
         {
           "section": "5. Science and Technology Synthesis",
           "courses": [
-            "AMM 3650 - Color Science - Principles and Applications",
-            "AMM 3650L - Color Science - Principles & Applications Laboratory",
-            "ANT 3050 - Archaeoastronomy",
-            "AST 3050 - Archaeoastronomy",
-            "ANT 3500 - Environment, Technology and Culture",
-            "ANT 4910 - Forensic Anthropology",
-            "AST 3420 - Life, the Universe, and Everything",
-            "AVS 3311 - Animal Industry and Society",
-            "AVS 3333 - Canine and Feline Compendium",
-            "BIO 3000 - Genetics and Human Issues",
-            "BIO 3010 - Human Sexuality",
-            "BIO 3030 - Sexually Transmitted Diseases and Safer Sex",
-            "BIO 3040 - Environment and Society",
-            "BIO 3070 - Biology of Human Pregnancy",
-            "BIO 3090 - Biology of the Brain",
-            "BIO 3120 - Biodiversity Conservation",
-            "BIO 3130 - Marine Biology",
-            "BIO 3280 - Biology of Aging",
-            "CHM 3010 - Modeling the Fundamentals of Physical Chemistry",
-            "CS 3750 - Computers and Society",
-            "EC 4441 - Industry Studies",
-            "EGR 4810 - Project Design Principles and Applications",
-            "EGR 4820 - Project Design Principles and Applications",
-            "EGR 4830 - Project Design Principles and Applications",
-            "FST 3250 - Food Safety and Current Issues",
-            "GEO 3030 - Climatology",
-            "GEO 3510 - Geography of California",
-            "GSC 3040 - Meteorology",
-            "GSC 3200 - Studies of a Blue Planet",
-            "GSC 3210 - Engineering Geology I",
-            "GSC 3210L - Engineering Geology I Laboratory",
-            "GSC 3350 - Exploring Earth\u2019s Oceans: Oceanography",
-            "GSC 3500 - Natural Disasters",
-            "IME 4020 - Ethical Concepts in Technology and Applied Science",
-            "IME 4030 - Fiscal Implications in Technical Decision Making",
-            "KIN 3010 - Foundations of Exercise Science",
-            "MU 3100 - History of Technology in Music",
-            "NTR 3050 - Nutrition, Science and Health",
-            "PHL 3330 - Bioethics",
-            "PHL 3530 - Cognitive Science",
-            "PHL 3830 - Philosophy of Science",
-            "PHL 3850 - The Ethics of Artificial Intelligence",
-            "PHY 3010 - Energy and Society",
-            "PHY 3020 - Physics for Future Presidents",
-            "PHY 3060 - History of Physics",
-            "PLT 3000 - Insects and Civilization",
-            "PLT 3760 - Urban and Community Agriculture",
-            "PLT 4311 - Plants and Civilization",
-            "PSY 3326 - Health Psychology",
-            "RS 3010 - Life Support Processes"
+            {
+              "courseCode": "AMM 3650 - Color Science - Principles and Applications",
+              "averageGPA": 2.569230769230769
+            },
+            {
+              "courseCode": "AMM 3650L - Color Science - Principles & Applications Laboratory",
+              "averageGPA": 2.569230769230769
+            },
+            {
+              "courseCode": "ANT 3050 - Archaeoastronomy",
+              "averageGPA": null
+            },
+            {
+              "courseCode": "AST 3050 - Archaeoastronomy",
+              "averageGPA": null
+            },
+            {
+              "courseCode": "ANT 3500 - Environment, Technology and Culture",
+              "averageGPA": 3.0834745762711866
+            },
+            {
+              "courseCode": "ANT 4910 - Forensic Anthropology",
+              "averageGPA": 3.0738281250000004
+            },
+            {
+              "courseCode": "AST 3420 - Life, the Universe, and Everything",
+              "averageGPA": 2.5704545454545458
+            },
+            {
+              "courseCode": "AVS 3311 - Animal Industry and Society",
+              "averageGPA": 3.3264705882352943
+            },
+            {
+              "courseCode": "AVS 3333 - Canine and Feline Compendium",
+              "averageGPA": 3.5305714285714287
+            },
+            {
+              "courseCode": "BIO 3000 - Genetics and Human Issues",
+              "averageGPA": 3.196411483253588
+            },
+            {
+              "courseCode": "BIO 3010 - Human Sexuality",
+              "averageGPA": 3.6634320053416434
+            },
+            {
+              "courseCode": "BIO 3030 - Sexually Transmitted Diseases and Safer Sex",
+              "averageGPA": 2.4925373134328357
+            },
+            {
+              "courseCode": "BIO 3040 - Environment and Society",
+              "averageGPA": 3.511842105263158
+            },
+            {
+              "courseCode": "BIO 3070 - Biology of Human Pregnancy",
+              "averageGPA": 3.8631419939577047
+            },
+            {
+              "courseCode": "BIO 3090 - Biology of the Brain",
+              "averageGPA": 2.977981651376147
+            },
+            {
+              "courseCode": "BIO 3120 - Biodiversity Conservation",
+              "averageGPA": 3.079699248120301
+            },
+            {
+              "courseCode": "BIO 3130 - Marine Biology",
+              "averageGPA": 3.6770833333333335
+            },
+            {
+              "courseCode": "BIO 3280 - Biology of Aging",
+              "averageGPA": null
+            },
+            {
+              "courseCode": "CHM 3010 - Modeling the Fundamentals of Physical Chemistry",
+              "averageGPA": 3.163555555555556
+            },
+            {
+              "courseCode": "CS 3750 - Computers and Society",
+              "averageGPA": 3.426760563380282
+            },
+            {
+              "courseCode": "EC 4441 - Industry Studies",
+              "averageGPA": 3.6999999999999997
+            },
+            {
+              "courseCode": "EGR 4810 - Project Design Principles and Applications",
+              "averageGPA": 3.2478003384094754
+            },
+            {
+              "courseCode": "EGR 4820 - Project Design Principles and Applications",
+              "averageGPA": 1.7935816164817753
+            },
+            {
+              "courseCode": "EGR 4830 - Project Design Principles and Applications",
+              "averageGPA": 3.8504578465424704
+            },
+            {
+              "courseCode": "FST 3250 - Food Safety and Current Issues",
+              "averageGPA": 3.285422469823584
+            },
+            {
+              "courseCode": "GEO 3030 - Climatology",
+              "averageGPA": 3.2539215686274514
+            },
+            {
+              "courseCode": "GEO 3510 - Geography of California",
+              "averageGPA": 3.8404761904761906
+            },
+            {
+              "courseCode": "GSC 3040 - Meteorology",
+              "averageGPA": 3.0794392523364484
+            },
+            {
+              "courseCode": "GSC 3200 - Studies of a Blue Planet",
+              "averageGPA": 3.125
+            },
+            {
+              "courseCode": "GSC 3210 - Engineering Geology I",
+              "averageGPA": 2.847024673439768
+            },
+            {
+              "courseCode": "GSC 3210L - Engineering Geology I Laboratory",
+              "averageGPA": 2.847024673439768
+            },
+            {
+              "courseCode": "GSC 3350 - Exploring Earth\u2019s Oceans: Oceanography",
+              "averageGPA": 2.8983606557377053
+            },
+            {
+              "courseCode": "GSC 3500 - Natural Disasters",
+              "averageGPA": 2.9475033738191634
+            },
+            {
+              "courseCode": "IME 4020 - Ethical Concepts in Technology and Applied Science",
+              "averageGPA": 3.8857142857142852
+            },
+            {
+              "courseCode": "IME 4030 - Fiscal Implications in Technical Decision Making",
+              "averageGPA": 3.6
+            },
+            {
+              "courseCode": "KIN 3010 - Foundations of Exercise Science",
+              "averageGPA": 3.3050847457627115
+            },
+            {
+              "courseCode": "MU 3100 - History of Technology in Music",
+              "averageGPA": 3.6689181453921003
+            },
+            {
+              "courseCode": "NTR 3050 - Nutrition, Science and Health",
+              "averageGPA": 3.1083707865168537
+            },
+            {
+              "courseCode": "PHL 3330 - Bioethics",
+              "averageGPA": 3.8416666666666663
+            },
+            {
+              "courseCode": "PHL 3530 - Cognitive Science",
+              "averageGPA": 3.3012269938650314
+            },
+            {
+              "courseCode": "PHL 3830 - Philosophy of Science",
+              "averageGPA": 3.1610687022900765
+            },
+            {
+              "courseCode": "PHL 3850 - The Ethics of Artificial Intelligence",
+              "averageGPA": null
+            },
+            {
+              "courseCode": "PHY 3010 - Energy and Society",
+              "averageGPA": 3.321
+            },
+            {
+              "courseCode": "PHY 3020 - Physics for Future Presidents",
+              "averageGPA": 2.7649999999999997
+            },
+            {
+              "courseCode": "PHY 3060 - History of Physics",
+              "averageGPA": 3.0631578947368423
+            },
+            {
+              "courseCode": "PLT 3000 - Insects and Civilization",
+              "averageGPA": 3.539812646370024
+            },
+            {
+              "courseCode": "PLT 3760 - Urban and Community Agriculture",
+              "averageGPA": 3.7390243902439027
+            },
+            {
+              "courseCode": "PLT 4311 - Plants and Civilization",
+              "averageGPA": 2.9196078431372547
+            },
+            {
+              "courseCode": "PSY 3326 - Health Psychology",
+              "averageGPA": 3.470886075949368
+            },
+            {
+              "courseCode": "RS 3010 - Life Support Processes",
+              "averageGPA": 3.2709302325581393
+            }
           ]
         }
       ]
@@ -173,144 +524,528 @@
         {
           "section": "1. Visual and Performing Arts",
           "courses": [
-            "AH 2301 - World Art: Prehistory through Medieval Europe",
-            "AH 2302 - World Art: Renaissance through Modern Europe and the United States",
-            "AH 2303 - World Art: Asia",
-            "AH 2305 - World Art: Africa, Oceania, and Native America",
-            "ARC 3610 - World Architecture before the Renaissance",
-            "ARC 3612 - World Architecture before the Renaissance Discussion",
-            "COM 2280 - Understanding and Appreciating the Photographic Image",
-            "DAN 2020 - World Dance and Cultures",
-            "DAN 2300 - Live Dance Appreciation",
-            "LA 2261 - History I: History of Landscape Design",
-            "LA 2271 - History II: Modern Landscapes",
-            "MU 1000 - Introduction to Music",
-            "MU 1010 - Music Appreciation",
-            "MU 1030 - World of Music",
-            "MU 1100 - Jazz and Beyond",
-            "PLT 2140 - History of Garden Art",
-            "TH 1250 - Introduction to Acting",
-            "TH 1250A - Introduction to Acting Activity",
-            "TH 2030 - Introduction to Theatre",
-            "TH 2080 - Introduction to Film and American Culture",
-            "VCD 1330A - Foundations in Ceramics Activity"
+            {
+              "courseCode": "AH 2301 - World Art: Prehistory through Medieval Europe",
+              "averageGPA": 3.155752212389381
+            },
+            {
+              "courseCode": "AH 2302 - World Art: Renaissance through Modern Europe and the United States",
+              "averageGPA": 3.155752212389381
+            },
+            {
+              "courseCode": "AH 2303 - World Art: Asia",
+              "averageGPA": 3.155752212389381
+            },
+            {
+              "courseCode": "AH 2305 - World Art: Africa, Oceania, and Native America",
+              "averageGPA": 3.155752212389381
+            },
+            {
+              "courseCode": "ARC 3610 - World Architecture before the Renaissance",
+              "averageGPA": 3.472289156626506
+            },
+            {
+              "courseCode": "ARC 3612 - World Architecture before the Renaissance Discussion",
+              "averageGPA": 3.472289156626506
+            },
+            {
+              "courseCode": "COM 2280 - Understanding and Appreciating the Photographic Image",
+              "averageGPA": 3.078649237472767
+            },
+            {
+              "courseCode": "DAN 2020 - World Dance and Cultures",
+              "averageGPA": 3.166104868913857
+            },
+            {
+              "courseCode": "DAN 2300 - Live Dance Appreciation",
+              "averageGPA": 3.6956521739130435
+            },
+            {
+              "courseCode": "LA 2261 - History I: History of Landscape Design",
+              "averageGPA": 3.6428571428571432
+            },
+            {
+              "courseCode": "LA 2271 - History II: Modern Landscapes",
+              "averageGPA": 3.448550724637682
+            },
+            {
+              "courseCode": "MU 1000 - Introduction to Music",
+              "averageGPA": 3.2708699348257295
+            },
+            {
+              "courseCode": "MU 1010 - Music Appreciation",
+              "averageGPA": 3.502298850574712
+            },
+            {
+              "courseCode": "MU 1030 - World of Music",
+              "averageGPA": 3.1966480446927372
+            },
+            {
+              "courseCode": "MU 1100 - Jazz and Beyond",
+              "averageGPA": 3.6890510948905106
+            },
+            {
+              "courseCode": "PLT 2140 - History of Garden Art",
+              "averageGPA": 2.692344497607656
+            },
+            {
+              "courseCode": "TH 1250 - Introduction to Acting",
+              "averageGPA": 3.5999999999999996
+            },
+            {
+              "courseCode": "TH 1250A - Introduction to Acting Activity",
+              "averageGPA": 3.5999999999999996
+            },
+            {
+              "courseCode": "TH 2030 - Introduction to Theatre",
+              "averageGPA": 3.5194864048338377
+            },
+            {
+              "courseCode": "TH 2080 - Introduction to Film and American Culture",
+              "averageGPA": 3.725
+            },
+            {
+              "courseCode": "VCD 1330A - Foundations in Ceramics Activity",
+              "averageGPA": 3.5089285714285716
+            }
           ]
         },
         {
           "section": "2. Literature, Modern Languages, Philosophy and Civilization",
           "courses": [
-            "AG 1110 - Agriculture: The Foundation of Civilizations",
-            "ANT 1040 - Introduction to Linguistic Anthropology",
-            "ANT 1120 - World Cultures via the Internet",
-            "ARC 1020 - Visual Literacy and Civilization: An Architect\u2019s View",
-            "ARC 1022A - Visual Literacy and Civilization: An Architect\u2019s View Activity",
-            "CHN 1111 - Elementary Chinese I",
-            "CHN 1112 - Elementary Chinese II",
-            "CHN 2111 - Intermediate Chinese I",
-            "CHN 2112 - Intermediate Chinese II",
-            "CHN 2113 - Intermediate Chinese III",
-            "ENG 2200 - Introduction to English Linguistics",
-            "ENG 2300 - American Literature to 1865",
-            "ENG 2320 - American Literature Since 1865",
-            "ENG 2330 - Introduction to Multicultural Literature in the U.S.",
-            "ENG 2331 - Introduction to U.S. Latino/a Literature",
-            "ENG 2332 - Literature and the African American Experience",
-            "EWS 2332 - Literature and the African American Experience",
-            "ENG 2500 - Introduction to Shakespeare",
-            "ENG 2510 - British Literature I",
-            "ENG 2520 - British Literature II",
-            "ENG 2700 - The Bible as Literature",
-            "ENG 2710 - World Literature I",
-            "ENG 2720 - World Literature II",
-            "ENG 2800 - Introduction to Folklore",
-            "ENG 2801 - Young Adult Literature",
-            "ENG 2803 - Fantasy and the Fantastic",
-            "ENG 2880 - Science Fiction",
-            "ENG 2882 - War and Peace in Literature",
-            "ENG 2883 - Women Writers",
-            "ENG 2884 - Contemporary Literature",
-            "ENG 2885 - Introduction to Fiction",
-            "FRE 1111 - Elementary French I",
-            "FRE 1112 - Elementary French II",
-            "FRE 2111 - Intermediate French",
-            "FRE 2112 - Intermediate French Reading",
-            "GER 1111 - Elementary German I",
-            "GER 1112 - Elementary German II",
-            "GER 2111 - Intermediate German I",
-            "HST 1101 - World Civilizations to 1500",
-            "HST 1102 - World Civilizations from 1500",
-            "HST 2213 - Introduction to Islam",
-            "LA 2771 - Environmental Design Theory",
-            "PHL 2010 - Ultimate Questions: An Introduction to Philosophy",
-            "PHL 2040 - Ethical Problems in Contemporary Life",
-            "PHL 2050 - Business and Professional Ethics",
-            "PHL 2060 - Philosophy Through Children\u2019s Literature",
-            "PHL 2200 - Religions of the World",
-            "SPN 1111 - Elementary Spanish I",
-            "SPN 1112 - Elementary Spanish II",
-            "SPN 1110 - Introduction to the Spanish-Speaking World",
-            "SPN 1130 - Spanish for Spanish Speakers I",
-            "SPN 2111 - Intermediate Spanish I",
-            "SPN 2112 - Intermediate Spanish II",
-            "SPN 2120 - Spanish for Spanish Speakers II",
-            "SPN 2130 - Spanish Intermediate Composition",
-            "SPN 2140 - Intermediate Spanish Conversation",
-            "STS 2010 - Introduction to Science, Technology, and Society"
+            {
+              "courseCode": "AG 1110 - Agriculture: The Foundation of Civilizations",
+              "averageGPA": 3.3470790378006874
+            },
+            {
+              "courseCode": "ANT 1040 - Introduction to Linguistic Anthropology",
+              "averageGPA": 3.3406488549618323
+            },
+            {
+              "courseCode": "ANT 1120 - World Cultures via the Internet",
+              "averageGPA": 3.375
+            },
+            {
+              "courseCode": "ARC 1020 - Visual Literacy and Civilization: An Architect\u2019s View",
+              "averageGPA": 3.31651376146789
+            },
+            {
+              "courseCode": "ARC 1022A - Visual Literacy and Civilization: An Architect\u2019s View Activity",
+              "averageGPA": 3.3814583333333332
+            },
+            {
+              "courseCode": "CHN 1111 - Elementary Chinese I",
+              "averageGPA": 3.300819672131147
+            },
+            {
+              "courseCode": "CHN 1112 - Elementary Chinese II",
+              "averageGPA": 3.300819672131147
+            },
+            {
+              "courseCode": "CHN 2111 - Intermediate Chinese I",
+              "averageGPA": 3.5521739130434784
+            },
+            {
+              "courseCode": "CHN 2112 - Intermediate Chinese II",
+              "averageGPA": 3.5521739130434784
+            },
+            {
+              "courseCode": "CHN 2113 - Intermediate Chinese III",
+              "averageGPA": 3.5521739130434784
+            },
+            {
+              "courseCode": "ENG 2200 - Introduction to English Linguistics",
+              "averageGPA": 3.1684343434343436
+            },
+            {
+              "courseCode": "ENG 2300 - American Literature to 1865",
+              "averageGPA": 3.7043478260869565
+            },
+            {
+              "courseCode": "ENG 2320 - American Literature Since 1865",
+              "averageGPA": 3.2716981132075476
+            },
+            {
+              "courseCode": "ENG 2330 - Introduction to Multicultural Literature in the U.S.",
+              "averageGPA": 2.9214285714285713
+            },
+            {
+              "courseCode": "ENG 2331 - Introduction to U.S. Latino/a Literature",
+              "averageGPA": 2.9214285714285713
+            },
+            {
+              "courseCode": "ENG 2332 - Literature and the African American Experience",
+              "averageGPA": 2.9214285714285713
+            },
+            {
+              "courseCode": "EWS 2332 - Literature and the African American Experience",
+              "averageGPA": null
+            },
+            {
+              "courseCode": "ENG 2500 - Introduction to Shakespeare",
+              "averageGPA": 3.048453608247423
+            },
+            {
+              "courseCode": "ENG 2510 - British Literature I",
+              "averageGPA": 3.6306451612903223
+            },
+            {
+              "courseCode": "ENG 2520 - British Literature II",
+              "averageGPA": 3.1072222222222226
+            },
+            {
+              "courseCode": "ENG 2700 - The Bible as Literature",
+              "averageGPA": 2.764
+            },
+            {
+              "courseCode": "ENG 2710 - World Literature I",
+              "averageGPA": 3.326530612244898
+            },
+            {
+              "courseCode": "ENG 2720 - World Literature II",
+              "averageGPA": 3.4480000000000004
+            },
+            {
+              "courseCode": "ENG 2800 - Introduction to Folklore",
+              "averageGPA": 2.988888888888889
+            },
+            {
+              "courseCode": "ENG 2801 - Young Adult Literature",
+              "averageGPA": 2.988888888888889
+            },
+            {
+              "courseCode": "ENG 2803 - Fantasy and the Fantastic",
+              "averageGPA": 2.988888888888889
+            },
+            {
+              "courseCode": "ENG 2880 - Science Fiction",
+              "averageGPA": 3.343220338983051
+            },
+            {
+              "courseCode": "ENG 2882 - War and Peace in Literature",
+              "averageGPA": 3.343220338983051
+            },
+            {
+              "courseCode": "ENG 2883 - Women Writers",
+              "averageGPA": 3.343220338983051
+            },
+            {
+              "courseCode": "ENG 2884 - Contemporary Literature",
+              "averageGPA": 3.343220338983051
+            },
+            {
+              "courseCode": "ENG 2885 - Introduction to Fiction",
+              "averageGPA": 3.343220338983051
+            },
+            {
+              "courseCode": "FRE 1111 - Elementary French I",
+              "averageGPA": 3.434831460674157
+            },
+            {
+              "courseCode": "FRE 1112 - Elementary French II",
+              "averageGPA": 3.434831460674157
+            },
+            {
+              "courseCode": "FRE 2111 - Intermediate French",
+              "averageGPA": 3.525
+            },
+            {
+              "courseCode": "FRE 2112 - Intermediate French Reading",
+              "averageGPA": 3.525
+            },
+            {
+              "courseCode": "GER 1111 - Elementary German I",
+              "averageGPA": 3.370336391437309
+            },
+            {
+              "courseCode": "GER 1112 - Elementary German II",
+              "averageGPA": 3.370336391437309
+            },
+            {
+              "courseCode": "GER 2111 - Intermediate German I",
+              "averageGPA": 3.87
+            },
+            {
+              "courseCode": "HST 1101 - World Civilizations to 1500",
+              "averageGPA": 3.932142857142857
+            },
+            {
+              "courseCode": "HST 1102 - World Civilizations from 1500",
+              "averageGPA": 3.932142857142857
+            },
+            {
+              "courseCode": "HST 2213 - Introduction to Islam",
+              "averageGPA": null
+            },
+            {
+              "courseCode": "LA 2771 - Environmental Design Theory",
+              "averageGPA": 3.2197402597402593
+            },
+            {
+              "courseCode": "PHL 2010 - Ultimate Questions: An Introduction to Philosophy",
+              "averageGPA": 3.880952380952381
+            },
+            {
+              "courseCode": "PHL 2040 - Ethical Problems in Contemporary Life",
+              "averageGPA": 2.770691994572592
+            },
+            {
+              "courseCode": "PHL 2050 - Business and Professional Ethics",
+              "averageGPA": 2.8307228915662654
+            },
+            {
+              "courseCode": "PHL 2060 - Philosophy Through Children\u2019s Literature",
+              "averageGPA": 3.1547717842323655
+            },
+            {
+              "courseCode": "PHL 2200 - Religions of the World",
+              "averageGPA": 2.901672240802676
+            },
+            {
+              "courseCode": "SPN 1111 - Elementary Spanish I",
+              "averageGPA": 3.4877849608710445
+            },
+            {
+              "courseCode": "SPN 1112 - Elementary Spanish II",
+              "averageGPA": 3.4877849608710445
+            },
+            {
+              "courseCode": "SPN 1110 - Introduction to the Spanish-Speaking World",
+              "averageGPA": 3.4877849608710445
+            },
+            {
+              "courseCode": "SPN 1130 - Spanish for Spanish Speakers I",
+              "averageGPA": 3.2768166089965396
+            },
+            {
+              "courseCode": "SPN 2111 - Intermediate Spanish I",
+              "averageGPA": 3.6635416666666667
+            },
+            {
+              "courseCode": "SPN 2112 - Intermediate Spanish II",
+              "averageGPA": 3.6635416666666667
+            },
+            {
+              "courseCode": "SPN 2120 - Spanish for Spanish Speakers II",
+              "averageGPA": 2.9105960264900657
+            },
+            {
+              "courseCode": "SPN 2130 - Spanish Intermediate Composition",
+              "averageGPA": 2.7702127659574467
+            },
+            {
+              "courseCode": "SPN 2140 - Intermediate Spanish Conversation",
+              "averageGPA": null
+            },
+            {
+              "courseCode": "STS 2010 - Introduction to Science, Technology, and Society",
+              "averageGPA": 3.2424242424242427
+            }
           ]
         },
         {
           "section": "3. Arts and Humanities Synthesis",
           "courses": [
-            "AG 4010 - Ethical Issues in Food, Agricultural and Apparel Industries",
-            "ANT 3530 - Language and Culture",
-            "ANT 3600 - Magic, Shamanism, and Religion",
-            "ANT 4050 - Anthropology of Gender",
-            "ARC 4630 - Interpreting Architecture",
-            "BUS 4820 - International Destinations and the United States: Cross-Cultural Analysis",
-            "CLS 4100 - Model United Nations",
-            "CLS 4820 - Study Abroad: International Fieldwork",
-            "DAN 4460 - History of Dance and Its Artistic and Cultural Influences",
-            "ENG 3520 - Harry Potter as Literature and Culture",
-            "ENG 4110 - Technologies of Writing",
-            "ENG 4503 - Shakespeare before 1600",
-            "ENG 4740 - Chinese Civilization and Culture",
-            "ENG 4880 - Modernism and Postmodernism",
-            "EWS 3010 - Ethnic Identity",
-            "EWS 3750 - Gender, Ethnicity, and Film",
-            "EWS 4430 - Women, Health, and Body Politics",
-            "EWS 4500 - Multiracial and Hybrid Identities",
-            "EWS 4510 - Diaspora Studies",
-            "HST 3306 - Modern India",
-            "HST 3313 - The Middle East from the Rise of Islam to 1500",
-            "HST 3340 - History of American Institutions and Ideals, 1877-present",
-            "HST 3352 - History and Culture of the British Empire",
-            "HST 3370 - History of California",
-            "HST 3373 - History and Hollywood",
-            "HST 4230 - Modern Science in World History",
-            "HST 4406 - Women in the United States",
-            "HST 4408 - History of American Science and Technology",
-            "HST 4433 - Nonviolence in the Modern World",
-            "IGE 3200 - Visions of Science and Technology",
-            "IGE 3300 - Demons, the Undead, and the Monstrous Other",
-            "IGE 3500 - The Creative Process: Theory and Practice",
-            "IME 4020 - Ethical Concepts in Technology and Applied Science",
-            "MU 3100 - History of Technology in Music",
-            "MU 4171 - Theory, History, and Design of Musical Instruments",
-            "MU 4240 - Beatlemania",
-            "MU 4250 - Life and Death in the Arts",
-            "PHL 3110 - Philosophical Issues in the Law",
-            "PHL 3330 - Bioethics",
-            "PHL 3400 - Current Debates About Sexuality",
-            "PHL 3450 - Confrontations With The Reaper",
-            "PHL 3530 - Cognitive Science",
-            "PHL 3540 - The Philosophy and Science of Implicit Bias",
-            "PHL 3810 - Race and Racism",
-            "RS 3030 - Organization for Regenerative Practices",
-            "RS 4500 - Sustainable Communities",
-            "SPN 3420 - Latin American Civilization",
-            "TH 3010 - Through Artists\u2019 Eyes",
-            "TH 4100 - Theatrical Pursuit of an American Ideology",
-            "URP 4040 - Placemaking: Theories, Methods, and Practices"
+            {
+              "courseCode": "AG 4010 - Ethical Issues in Food, Agricultural and Apparel Industries",
+              "averageGPA": 3.4480769230769233
+            },
+            {
+              "courseCode": "ANT 3530 - Language and Culture",
+              "averageGPA": 3.221167883211679
+            },
+            {
+              "courseCode": "ANT 3600 - Magic, Shamanism, and Religion",
+              "averageGPA": 3.316598480420807
+            },
+            {
+              "courseCode": "ANT 4050 - Anthropology of Gender",
+              "averageGPA": 3.4449999999999994
+            },
+            {
+              "courseCode": "ARC 4630 - Interpreting Architecture",
+              "averageGPA": 3.2825581395348844
+            },
+            {
+              "courseCode": "BUS 4820 - International Destinations and the United States: Cross-Cultural Analysis",
+              "averageGPA": 3.607894736842105
+            },
+            {
+              "courseCode": "CLS 4100 - Model United Nations",
+              "averageGPA": 3.9633802816901404
+            },
+            {
+              "courseCode": "CLS 4820 - Study Abroad: International Fieldwork",
+              "averageGPA": null
+            },
+            {
+              "courseCode": "DAN 4460 - History of Dance and Its Artistic and Cultural Influences",
+              "averageGPA": 3.548557692307692
+            },
+            {
+              "courseCode": "ENG 3520 - Harry Potter as Literature and Culture",
+              "averageGPA": 3.4191304347826086
+            },
+            {
+              "courseCode": "ENG 4110 - Technologies of Writing",
+              "averageGPA": null
+            },
+            {
+              "courseCode": "ENG 4503 - Shakespeare before 1600",
+              "averageGPA": 3.496575342465754
+            },
+            {
+              "courseCode": "ENG 4740 - Chinese Civilization and Culture",
+              "averageGPA": 3.371052631578947
+            },
+            {
+              "courseCode": "ENG 4880 - Modernism and Postmodernism",
+              "averageGPA": 3.4545454545454546
+            },
+            {
+              "courseCode": "EWS 3010 - Ethnic Identity",
+              "averageGPA": 3.236919104991394
+            },
+            {
+              "courseCode": "EWS 3750 - Gender, Ethnicity, and Film",
+              "averageGPA": 3.0849576271186447
+            },
+            {
+              "courseCode": "EWS 4430 - Women, Health, and Body Politics",
+              "averageGPA": 3.3780645161290326
+            },
+            {
+              "courseCode": "EWS 4500 - Multiracial and Hybrid Identities",
+              "averageGPA": 3.7831775700934576
+            },
+            {
+              "courseCode": "EWS 4510 - Diaspora Studies",
+              "averageGPA": 3.7868217054263567
+            },
+            {
+              "courseCode": "HST 3306 - Modern India",
+              "averageGPA": 3.2241379310344827
+            },
+            {
+              "courseCode": "HST 3313 - The Middle East from the Rise of Islam to 1500",
+              "averageGPA": 3.011111111111111
+            },
+            {
+              "courseCode": "HST 3340 - History of American Institutions and Ideals, 1877-present",
+              "averageGPA": 3.497142857142857
+            },
+            {
+              "courseCode": "HST 3352 - History and Culture of the British Empire",
+              "averageGPA": 3.1608695652173915
+            },
+            {
+              "courseCode": "HST 3370 - History of California",
+              "averageGPA": 2.8117647058823527
+            },
+            {
+              "courseCode": "HST 3373 - History and Hollywood",
+              "averageGPA": 2.8117647058823527
+            },
+            {
+              "courseCode": "HST 4230 - Modern Science in World History",
+              "averageGPA": 3.484931506849315
+            },
+            {
+              "courseCode": "HST 4406 - Women in the United States",
+              "averageGPA": 2.8412393162393164
+            },
+            {
+              "courseCode": "HST 4408 - History of American Science and Technology",
+              "averageGPA": 2.8412393162393164
+            },
+            {
+              "courseCode": "HST 4433 - Nonviolence in the Modern World",
+              "averageGPA": 3.422857142857143
+            },
+            {
+              "courseCode": "IGE 3200 - Visions of Science and Technology",
+              "averageGPA": null
+            },
+            {
+              "courseCode": "IGE 3300 - Demons, the Undead, and the Monstrous Other",
+              "averageGPA": 3.6823226544622423
+            },
+            {
+              "courseCode": "IGE 3500 - The Creative Process: Theory and Practice",
+              "averageGPA": 3.4309366130558194
+            },
+            {
+              "courseCode": "IME 4020 - Ethical Concepts in Technology and Applied Science",
+              "averageGPA": 3.8857142857142852
+            },
+            {
+              "courseCode": "MU 3100 - History of Technology in Music",
+              "averageGPA": 3.6689181453921003
+            },
+            {
+              "courseCode": "MU 4171 - Theory, History, and Design of Musical Instruments",
+              "averageGPA": 3.661764705882353
+            },
+            {
+              "courseCode": "MU 4240 - Beatlemania",
+              "averageGPA": 3.734302325581395
+            },
+            {
+              "courseCode": "MU 4250 - Life and Death in the Arts",
+              "averageGPA": 3.742162162162162
+            },
+            {
+              "courseCode": "PHL 3110 - Philosophical Issues in the Law",
+              "averageGPA": 3.1617924528301886
+            },
+            {
+              "courseCode": "PHL 3330 - Bioethics",
+              "averageGPA": 3.8416666666666663
+            },
+            {
+              "courseCode": "PHL 3400 - Current Debates About Sexuality",
+              "averageGPA": 3.2828125000000004
+            },
+            {
+              "courseCode": "PHL 3450 - Confrontations With The Reaper",
+              "averageGPA": 3.244920993227991
+            },
+            {
+              "courseCode": "PHL 3530 - Cognitive Science",
+              "averageGPA": 3.3012269938650314
+            },
+            {
+              "courseCode": "PHL 3540 - The Philosophy and Science of Implicit Bias",
+              "averageGPA": 3.7483333333333335
+            },
+            {
+              "courseCode": "PHL 3810 - Race and Racism",
+              "averageGPA": 2.9547528517110266
+            },
+            {
+              "courseCode": "RS 3030 - Organization for Regenerative Practices",
+              "averageGPA": 3.435344827586207
+            },
+            {
+              "courseCode": "RS 4500 - Sustainable Communities",
+              "averageGPA": 2.9787114845938376
+            },
+            {
+              "courseCode": "SPN 3420 - Latin American Civilization",
+              "averageGPA": 3.6860000000000004
+            },
+            {
+              "courseCode": "TH 3010 - Through Artists\u2019 Eyes",
+              "averageGPA": 3.8266574585635365
+            },
+            {
+              "courseCode": "TH 4100 - Theatrical Pursuit of an American Ideology",
+              "averageGPA": 3.7345238095238096
+            },
+            {
+              "courseCode": "URP 4040 - Placemaking: Theories, Methods, and Practices",
+              "averageGPA": 3.459016393442623
+            }
           ]
         }
       ]
@@ -321,108 +1056,384 @@
         {
           "section": "1. U.S. History and American Ideals",
           "courses": [
-            "HST 2201 - United States History to 1877",
-            "HST 2202 - United States History, 1877-Present"
+            {
+              "courseCode": "HST 2201 - United States History to 1877",
+              "averageGPA": 2.8786102719033235
+            },
+            {
+              "courseCode": "HST 2202 - United States History, 1877-Present",
+              "averageGPA": 2.8786102719033235
+            }
           ]
         },
         {
           "section": "2. U.S. Constitution and California Government",
           "courses": [
-            "PLS 2010 - Introduction to American Government"
+            {
+              "courseCode": "PLS 2010 - Introduction to American Government",
+              "averageGPA": 3.8975609756097565
+            }
           ]
         },
         {
           "section": "4. Social Science Synthesis",
           "courses": [
-            "AG 4010 - Ethical Issues in Food, Agricultural and Apparel Industries",
-            "ANT 3500 - Environment, Technology and Culture",
-            "ANT 3600 - Magic, Shamanism, and Religion",
-            "ANT 3790 - Culture Areas of the World",
-            "ANT 4050 - Anthropology of Gender",
-            "BUS 4820 - International Destinations and the United States: Cross-Cultural Analysis",
-            "CLS 4100 - Model United Nations",
-            "CLS 4820 - Study Abroad: International Fieldwork",
-            "COM 3314 - Organizational Communication",
-            "COM 3327 - Intercultural Communication",
-            "COM 4133 - Public Opinion, Propaganda and Mass Media",
-            "COM 4222 - Crisis Communication",
-            "COM 4233 - Political Economy of Mass Communication",
-            "COM 4447 - Political Communication",
-            "CRM 3325 - Mass Incarceration",
-            "CRM 3390 - Media and Crime",
-            "CS 3750 - Computers and Society",
-            "DAN 4490 - Dance in Contemporary Culture",
-            "EC 4441 - Industry Studies",
-            "EC 4442 - Countrywide Economic Studies",
-            "ECS 3400 - Language and Literacy in Multilingual Families and Communities",
-            "EGR 3321 - CA Boundary Law and Public Lands",
-            "EGR 4050 - Role of Design Professionals In Society",
-            "ENG 4220 - Sociolinguistics",
-            "EWS 3300 - Ethnicity and Families",
-            "EWS 3700 - Race, Gender and the Law/Public Policies",
-            "EWS 3800 - Women in Global Perspective",
-            "EWS 4010 - Contemporary African American Studies",
-            "EWS 4020 - Contemporary Chicana/o and Latina/o Studies",
-            "EWS 4030 - Contemporary Native American Studies",
-            "EWS 4040 - Contemporary Asian Pacific Islander American Studies",
-            "EWS 4070 - Diverse Gender and Sexual Identities",
-            "EWS 4250 - Gender, Power, and Emerging Technologies",
-            "EWS 4250L - Gender, Power, and Emerging Technologies Laboratory",
-            "EWS 4310 - Ethnicity, Gender and Religion/Spirituality",
-            "EWS 4430 - Women, Health, and Body Politics",
-            "EWS 4450 - Multiethnic Heritage of California",
-            "EWS 4500 - Multiracial and Hybrid Identities",
-            "EWS 4510 - Diaspora Studies",
-            "EWS 4520 - Ethnicity, Race, and Sexuality",
-            "GEO 3510 - Geography of California",
-            "HST 3306 - Modern India",
-            "HST 3315 - The Middle East from 1500",
-            "HST 3324 - European Revolutions, 1789-1914",
-            "HST 3337 - Latin America since 1810",
-            "HST 4210 - History of the Scientific Revolution",
-            "HST 4230 - Modern Science in World History",
-            "HST 4406 - Women in the United States",
-            "HST 4407 - History of American Workers, 1877-Present",
-            "HST 4408 - History of American Science and Technology",
-            "HST 4433 - Nonviolence in the Modern World",
-            "IGE 3400 - Peoples and Cultures of Central Asia: Life along the Silk Road",
-            "IGE 3500 - The Creative Process: Theory and Practice",
-            "IGE 3600 - UFOs, Illuminati, and Other Conspiracy Theories",
-            "IME 4030 - Fiscal Implications in Technical Decision Making",
-            "KIN 4430 - Inequality in Sport and Physical Activity",
-            "KIN 4460 - Sport, Media, and Social Justice",
-            "KIN 4490 - US Sport, Culture, and Social Justice",
-            "KIN 4700 - Emotional Wellbeing and Stress Prevention",
-            "MHR 3020 - Organizational Behavior",
-            "MU 3100 - History of Technology in Music",
-            "MU 4240 - Beatlemania",
-            "NTR 3280 - Food and Culture",
-            "PHL 3110 - Philosophical Issues in the Law",
-            "PHL 3540 - The Philosophy and Science of Implicit Bias",
-            "PHL 3810 - Race and Racism",
-            "PLS 3821 - Politics, Policies, Pop Culture",
-            "PLS 4205 - American Political Institutions and Behavior",
-            "PLS 4800 - Policies of Need and Greed",
-            "PLS 4811 - California Government",
-            "PLS 4815 - Environmental Politics and Policy",
-            "PSY 3325 - Multicultural Psychology",
-            "PSY 3326 - Health Psychology",
-            "PSY 4455 - Human Sexuality: Relationships",
-            "RS 3020 - Global Regenerative Systems",
-            "RS 3030 - Organization for Regenerative Practices",
-            "RS 4500 - Sustainable Communities",
-            "SOC 3345 - Crime, Criminalization and Society",
-            "SOC 4440 - Technology & Society",
-            "SOC 4451 - Social Inequality, Sport and the Body",
-            "SOC 4465 - Impact of Colonization on the Peoples of Hawaii",
-            "TH 4250 - Community Based Theatre",
-            "TH 4250A - Community Based Theatre Activity",
-            "URP 3010 - Introduction to Urban Planning",
-            "URP 4110 - Evolution of American Cities and the Planning Movement",
-            "URP 4120 - Urban Design in Europe",
-            "URP 4220 - The Just City",
-            "URP 4750 - Planning in a Global Economy",
-            "URP 4820 - California Water"
+            {
+              "courseCode": "AG 4010 - Ethical Issues in Food, Agricultural and Apparel Industries",
+              "averageGPA": 3.4480769230769233
+            },
+            {
+              "courseCode": "ANT 3500 - Environment, Technology and Culture",
+              "averageGPA": 3.0834745762711866
+            },
+            {
+              "courseCode": "ANT 3600 - Magic, Shamanism, and Religion",
+              "averageGPA": 3.316598480420807
+            },
+            {
+              "courseCode": "ANT 3790 - Culture Areas of the World",
+              "averageGPA": null
+            },
+            {
+              "courseCode": "ANT 4050 - Anthropology of Gender",
+              "averageGPA": 3.4449999999999994
+            },
+            {
+              "courseCode": "BUS 4820 - International Destinations and the United States: Cross-Cultural Analysis",
+              "averageGPA": 3.607894736842105
+            },
+            {
+              "courseCode": "CLS 4100 - Model United Nations",
+              "averageGPA": 3.9633802816901404
+            },
+            {
+              "courseCode": "CLS 4820 - Study Abroad: International Fieldwork",
+              "averageGPA": null
+            },
+            {
+              "courseCode": "COM 3314 - Organizational Communication",
+              "averageGPA": 3.1666666666666665
+            },
+            {
+              "courseCode": "COM 3327 - Intercultural Communication",
+              "averageGPA": 2.870434782608696
+            },
+            {
+              "courseCode": "COM 4133 - Public Opinion, Propaganda and Mass Media",
+              "averageGPA": 2.933333333333333
+            },
+            {
+              "courseCode": "COM 4222 - Crisis Communication",
+              "averageGPA": 2.9785276073619635
+            },
+            {
+              "courseCode": "COM 4233 - Political Economy of Mass Communication",
+              "averageGPA": 3.119594594594595
+            },
+            {
+              "courseCode": "COM 4447 - Political Communication",
+              "averageGPA": 2.8827586206896556
+            },
+            {
+              "courseCode": "CRM 3325 - Mass Incarceration",
+              "averageGPA": 3.114861460957179
+            },
+            {
+              "courseCode": "CRM 3390 - Media and Crime",
+              "averageGPA": 3.3567251461988303
+            },
+            {
+              "courseCode": "CS 3750 - Computers and Society",
+              "averageGPA": 3.426760563380282
+            },
+            {
+              "courseCode": "DAN 4490 - Dance in Contemporary Culture",
+              "averageGPA": 3.6614173228346454
+            },
+            {
+              "courseCode": "EC 4441 - Industry Studies",
+              "averageGPA": 3.6999999999999997
+            },
+            {
+              "courseCode": "EC 4442 - Countrywide Economic Studies",
+              "averageGPA": 3.6999999999999997
+            },
+            {
+              "courseCode": "ECS 3400 - Language and Literacy in Multilingual Families and Communities",
+              "averageGPA": 3.5056603773584905
+            },
+            {
+              "courseCode": "EGR 3321 - CA Boundary Law and Public Lands",
+              "averageGPA": 3.4593220338983053
+            },
+            {
+              "courseCode": "EGR 4050 - Role of Design Professionals In Society",
+              "averageGPA": 2.7288326300984527
+            },
+            {
+              "courseCode": "ENG 4220 - Sociolinguistics",
+              "averageGPA": 3.405
+            },
+            {
+              "courseCode": "EWS 3300 - Ethnicity and Families",
+              "averageGPA": 2.7855555555555562
+            },
+            {
+              "courseCode": "EWS 3700 - Race, Gender and the Law/Public Policies",
+              "averageGPA": 2.6777777777777776
+            },
+            {
+              "courseCode": "EWS 3800 - Women in Global Perspective",
+              "averageGPA": 3.4559845559845566
+            },
+            {
+              "courseCode": "EWS 4010 - Contemporary African American Studies",
+              "averageGPA": 3.2847619047619045
+            },
+            {
+              "courseCode": "EWS 4020 - Contemporary Chicana/o and Latina/o Studies",
+              "averageGPA": 3.6080373831775705
+            },
+            {
+              "courseCode": "EWS 4030 - Contemporary Native American Studies",
+              "averageGPA": 3.7350000000000003
+            },
+            {
+              "courseCode": "EWS 4040 - Contemporary Asian Pacific Islander American Studies",
+              "averageGPA": 3.6269083969465647
+            },
+            {
+              "courseCode": "EWS 4070 - Diverse Gender and Sexual Identities",
+              "averageGPA": 3.535983263598326
+            },
+            {
+              "courseCode": "EWS 4250 - Gender, Power, and Emerging Technologies",
+              "averageGPA": 3.65945945945946
+            },
+            {
+              "courseCode": "EWS 4250L - Gender, Power, and Emerging Technologies Laboratory",
+              "averageGPA": 3.65945945945946
+            },
+            {
+              "courseCode": "EWS 4310 - Ethnicity, Gender and Religion/Spirituality",
+              "averageGPA": 3.703921568627451
+            },
+            {
+              "courseCode": "EWS 4430 - Women, Health, and Body Politics",
+              "averageGPA": 3.3780645161290326
+            },
+            {
+              "courseCode": "EWS 4450 - Multiethnic Heritage of California",
+              "averageGPA": 3.4016574585635366
+            },
+            {
+              "courseCode": "EWS 4500 - Multiracial and Hybrid Identities",
+              "averageGPA": 3.7831775700934576
+            },
+            {
+              "courseCode": "EWS 4510 - Diaspora Studies",
+              "averageGPA": 3.7868217054263567
+            },
+            {
+              "courseCode": "EWS 4520 - Ethnicity, Race, and Sexuality",
+              "averageGPA": 3.491111111111111
+            },
+            {
+              "courseCode": "GEO 3510 - Geography of California",
+              "averageGPA": 3.8404761904761906
+            },
+            {
+              "courseCode": "HST 3306 - Modern India",
+              "averageGPA": 3.2241379310344827
+            },
+            {
+              "courseCode": "HST 3315 - The Middle East from 1500",
+              "averageGPA": 3.011111111111111
+            },
+            {
+              "courseCode": "HST 3324 - European Revolutions, 1789-1914",
+              "averageGPA": 3.071875
+            },
+            {
+              "courseCode": "HST 3337 - Latin America since 1810",
+              "averageGPA": 3.338095238095238
+            },
+            {
+              "courseCode": "HST 4210 - History of the Scientific Revolution",
+              "averageGPA": 3.094615384615384
+            },
+            {
+              "courseCode": "HST 4230 - Modern Science in World History",
+              "averageGPA": 3.484931506849315
+            },
+            {
+              "courseCode": "HST 4406 - Women in the United States",
+              "averageGPA": 2.8412393162393164
+            },
+            {
+              "courseCode": "HST 4407 - History of American Workers, 1877-Present",
+              "averageGPA": 2.8412393162393164
+            },
+            {
+              "courseCode": "HST 4408 - History of American Science and Technology",
+              "averageGPA": 2.8412393162393164
+            },
+            {
+              "courseCode": "HST 4433 - Nonviolence in the Modern World",
+              "averageGPA": 3.422857142857143
+            },
+            {
+              "courseCode": "IGE 3400 - Peoples and Cultures of Central Asia: Life along the Silk Road",
+              "averageGPA": null
+            },
+            {
+              "courseCode": "IGE 3500 - The Creative Process: Theory and Practice",
+              "averageGPA": 3.4309366130558194
+            },
+            {
+              "courseCode": "IGE 3600 - UFOs, Illuminati, and Other Conspiracy Theories",
+              "averageGPA": 3.664508393285372
+            },
+            {
+              "courseCode": "IME 4030 - Fiscal Implications in Technical Decision Making",
+              "averageGPA": 3.6
+            },
+            {
+              "courseCode": "KIN 4430 - Inequality in Sport and Physical Activity",
+              "averageGPA": 3.472470588235294
+            },
+            {
+              "courseCode": "KIN 4460 - Sport, Media, and Social Justice",
+              "averageGPA": null
+            },
+            {
+              "courseCode": "KIN 4490 - US Sport, Culture, and Social Justice",
+              "averageGPA": 2.806666666666667
+            },
+            {
+              "courseCode": "KIN 4700 - Emotional Wellbeing and Stress Prevention",
+              "averageGPA": null
+            },
+            {
+              "courseCode": "MHR 3020 - Organizational Behavior",
+              "averageGPA": 3.36367461430575
+            },
+            {
+              "courseCode": "MU 3100 - History of Technology in Music",
+              "averageGPA": 3.6689181453921003
+            },
+            {
+              "courseCode": "MU 4240 - Beatlemania",
+              "averageGPA": 3.734302325581395
+            },
+            {
+              "courseCode": "NTR 3280 - Food and Culture",
+              "averageGPA": 2.9936842105263155
+            },
+            {
+              "courseCode": "PHL 3110 - Philosophical Issues in the Law",
+              "averageGPA": 3.1617924528301886
+            },
+            {
+              "courseCode": "PHL 3540 - The Philosophy and Science of Implicit Bias",
+              "averageGPA": 3.7483333333333335
+            },
+            {
+              "courseCode": "PHL 3810 - Race and Racism",
+              "averageGPA": 2.9547528517110266
+            },
+            {
+              "courseCode": "PLS 3821 - Politics, Policies, Pop Culture",
+              "averageGPA": 3.663855421686747
+            },
+            {
+              "courseCode": "PLS 4205 - American Political Institutions and Behavior",
+              "averageGPA": 3.515625
+            },
+            {
+              "courseCode": "PLS 4800 - Policies of Need and Greed",
+              "averageGPA": null
+            },
+            {
+              "courseCode": "PLS 4811 - California Government",
+              "averageGPA": 2.8529411764705888
+            },
+            {
+              "courseCode": "PLS 4815 - Environmental Politics and Policy",
+              "averageGPA": 2.8529411764705888
+            },
+            {
+              "courseCode": "PSY 3325 - Multicultural Psychology",
+              "averageGPA": 3.470886075949368
+            },
+            {
+              "courseCode": "PSY 3326 - Health Psychology",
+              "averageGPA": 3.470886075949368
+            },
+            {
+              "courseCode": "PSY 4455 - Human Sexuality: Relationships",
+              "averageGPA": 3.189021852237253
+            },
+            {
+              "courseCode": "RS 3020 - Global Regenerative Systems",
+              "averageGPA": 3.596484375
+            },
+            {
+              "courseCode": "RS 3030 - Organization for Regenerative Practices",
+              "averageGPA": 3.435344827586207
+            },
+            {
+              "courseCode": "RS 4500 - Sustainable Communities",
+              "averageGPA": 2.9787114845938376
+            },
+            {
+              "courseCode": "SOC 3345 - Crime, Criminalization and Society",
+              "averageGPA": 3.2873475609756095
+            },
+            {
+              "courseCode": "SOC 4440 - Technology & Society",
+              "averageGPA": 3.169327731092437
+            },
+            {
+              "courseCode": "SOC 4451 - Social Inequality, Sport and the Body",
+              "averageGPA": 3.3547368421052632
+            },
+            {
+              "courseCode": "SOC 4465 - Impact of Colonization on the Peoples of Hawaii",
+              "averageGPA": 3.635294117647059
+            },
+            {
+              "courseCode": "TH 4250 - Community Based Theatre",
+              "averageGPA": 3.9322033898305087
+            },
+            {
+              "courseCode": "TH 4250A - Community Based Theatre Activity",
+              "averageGPA": 3.9322033898305087
+            },
+            {
+              "courseCode": "URP 3010 - Introduction to Urban Planning",
+              "averageGPA": 2.8927835051546396
+            },
+            {
+              "courseCode": "URP 4110 - Evolution of American Cities and the Planning Movement",
+              "averageGPA": 2.9151898734177215
+            },
+            {
+              "courseCode": "URP 4120 - Urban Design in Europe",
+              "averageGPA": 3.123157894736843
+            },
+            {
+              "courseCode": "URP 4220 - The Just City",
+              "averageGPA": 3.4052631578947365
+            },
+            {
+              "courseCode": "URP 4750 - Planning in a Global Economy",
+              "averageGPA": 2.6969387755102034
+            },
+            {
+              "courseCode": "URP 4820 - California Water",
+              "averageGPA": 3.757342657342657
+            }
           ]
         }
       ]
@@ -433,44 +1444,158 @@
         {
           "section": "0. Lifelong Learning and Self-Development",
           "courses": [
-            "AMM 1480 - First Year Experience and Focus on the Future: Leadership Skills for the 21st Century",
-            "ANT 2010 - Human Nature/Human Affairs: A Biocultural Perspective",
-            "ARC 1010 - Introduction to Architectural Design Theories and Methods",
-            "AVS 2211 - Drugs and Society",
-            "BUS 1010 - Business Freshman Experience",
-            "CLS 1101 - Freshman Experience",
-            "CLS 1101A - Freshman Experience",
-            "CPU 1540 - Exploring Contemporary Topics",
-            "ECS 1000 - Child Growth and Development",
-            "EGR 1000 - Engineering, Society, and You",
-            "EGR 1000L - Engineering, Society, and You Laboratory",
-            "ENV 1010 - Introduction to Design Theories and Methods",
-            "ENV 1010L - Introduction to Design Theories and Methods Laboratory",
-            "EWS 1020 - Engaged Education: Integrating Knowledge, Learning and Success",
-            "EWS 2800S - Service Learning and Community Engagement Service Learning",
-            "FRL 1001 - Personal Money Management",
-            "GSC 1010 - Planet Earth: A Citizen\u2019s Guide",
-            "GSC 1010A - Planet Earth: A Citizen\u2019s Guide Activity",
-            "HRT 2550 - Healthy American Cuisine",
-            "IGE 1020 - Engaged Education: Integrating Knowledge, Learning and Success",
-            "KIN 2070 - Health and Well-Being",
-            "KIN 2700 - Stress Management for Healthy Living",
-            "LA 1771 - Reading and Representing the Landscape",
-            "LIB 1500 - Information Literacy for the Digital Age",
-            "LS 1020 - Integrating Knowledge, Learning, and Engagement for Success",
-            "MU 1040 - Careers in Music",
-            "NTR 2030 - Health, Nutrition and the Integrated Being",
-            "PLS 1011 - Introduction to Political Science",
-            "PSY 2201 - Introduction to Psychology",
-            "PSY 2230 - Positive Psychology: The Science of the Good Life",
-            "RS 1110 - Introduction to Regenerative Studies",
-            "SCI 1010 - Science and Mathematics: Freshman Experience I",
-            "SCI 1010A - Science and Mathematics: Freshman Experience I Activity",
-            "SCI 1020A - Science and Mathematics: Freshman Experience II Activity",
-            "SCI 1100 - Integrative Science",
-            "SCI 1100A - Integrative Science Activity I",
-            "SCI 1110A - Integrative Science Activity II",
-            "VCD 2370 - Visual Thinking"
+            {
+              "courseCode": "AMM 1480 - First Year Experience and Focus on the Future: Leadership Skills for the 21st Century",
+              "averageGPA": null
+            },
+            {
+              "courseCode": "ANT 2010 - Human Nature/Human Affairs: A Biocultural Perspective",
+              "averageGPA": 2.8934579439252337
+            },
+            {
+              "courseCode": "ARC 1010 - Introduction to Architectural Design Theories and Methods",
+              "averageGPA": null
+            },
+            {
+              "courseCode": "AVS 2211 - Drugs and Society",
+              "averageGPA": 3.1617699115044244
+            },
+            {
+              "courseCode": "BUS 1010 - Business Freshman Experience",
+              "averageGPA": 3.1998420221169037
+            },
+            {
+              "courseCode": "CLS 1101 - Freshman Experience",
+              "averageGPA": 3.206422018348624
+            },
+            {
+              "courseCode": "CLS 1101A - Freshman Experience",
+              "averageGPA": 3.206422018348624
+            },
+            {
+              "courseCode": "CPU 1540 - Exploring Contemporary Topics",
+              "averageGPA": null
+            },
+            {
+              "courseCode": "ECS 1000 - Child Growth and Development",
+              "averageGPA": 3.155056179775281
+            },
+            {
+              "courseCode": "EGR 1000 - Engineering, Society, and You",
+              "averageGPA": 3.3859891761876124
+            },
+            {
+              "courseCode": "EGR 1000L - Engineering, Society, and You Laboratory",
+              "averageGPA": 3.3859891761876124
+            },
+            {
+              "courseCode": "ENV 1010 - Introduction to Design Theories and Methods",
+              "averageGPA": 2.2951048951048945
+            },
+            {
+              "courseCode": "ENV 1010L - Introduction to Design Theories and Methods Laboratory",
+              "averageGPA": 2.2951048951048945
+            },
+            {
+              "courseCode": "EWS 1020 - Engaged Education: Integrating Knowledge, Learning and Success",
+              "averageGPA": 3.872340425531915
+            },
+            {
+              "courseCode": "EWS 2800S - Service Learning and Community Engagement Service Learning",
+              "averageGPA": 3.7766917293233084
+            },
+            {
+              "courseCode": "FRL 1001 - Personal Money Management",
+              "averageGPA": 2.796869565217391
+            },
+            {
+              "courseCode": "GSC 1010 - Planet Earth: A Citizen\u2019s Guide",
+              "averageGPA": 3.472727272727273
+            },
+            {
+              "courseCode": "GSC 1010A - Planet Earth: A Citizen\u2019s Guide Activity",
+              "averageGPA": 3.472727272727273
+            },
+            {
+              "courseCode": "HRT 2550 - Healthy American Cuisine",
+              "averageGPA": 3.358552631578947
+            },
+            {
+              "courseCode": "IGE 1020 - Engaged Education: Integrating Knowledge, Learning and Success",
+              "averageGPA": 4
+            },
+            {
+              "courseCode": "KIN 2070 - Health and Well-Being",
+              "averageGPA": 3.2884375
+            },
+            {
+              "courseCode": "KIN 2700 - Stress Management for Healthy Living",
+              "averageGPA": 3.2627545353572756
+            },
+            {
+              "courseCode": "LA 1771 - Reading and Representing the Landscape",
+              "averageGPA": 3.041860465116279
+            },
+            {
+              "courseCode": "LIB 1500 - Information Literacy for the Digital Age",
+              "averageGPA": 3.456756756756757
+            },
+            {
+              "courseCode": "LS 1020 - Integrating Knowledge, Learning, and Engagement for Success",
+              "averageGPA": 3.2476635514018692
+            },
+            {
+              "courseCode": "MU 1040 - Careers in Music",
+              "averageGPA": 3.248017621145374
+            },
+            {
+              "courseCode": "NTR 2030 - Health, Nutrition and the Integrated Being",
+              "averageGPA": 3.4391335740072195
+            },
+            {
+              "courseCode": "PLS 1011 - Introduction to Political Science",
+              "averageGPA": 3.463428571428571
+            },
+            {
+              "courseCode": "PSY 2201 - Introduction to Psychology",
+              "averageGPA": 3.207702127659574
+            },
+            {
+              "courseCode": "PSY 2230 - Positive Psychology: The Science of the Good Life",
+              "averageGPA": null
+            },
+            {
+              "courseCode": "RS 1110 - Introduction to Regenerative Studies",
+              "averageGPA": 3.4767272727272727
+            },
+            {
+              "courseCode": "SCI 1010 - Science and Mathematics: Freshman Experience I",
+              "averageGPA": 3.139344262295082
+            },
+            {
+              "courseCode": "SCI 1010A - Science and Mathematics: Freshman Experience I Activity",
+              "averageGPA": 3.139344262295082
+            },
+            {
+              "courseCode": "SCI 1020A - Science and Mathematics: Freshman Experience II Activity",
+              "averageGPA": 3.0930232558139537
+            },
+            {
+              "courseCode": "SCI 1100 - Integrative Science",
+              "averageGPA": 3.46
+            },
+            {
+              "courseCode": "SCI 1100A - Integrative Science Activity I",
+              "averageGPA": 3.46
+            },
+            {
+              "courseCode": "SCI 1110A - Integrative Science Activity II",
+              "averageGPA": 3.7700000000000005
+            },
+            {
+              "courseCode": "VCD 2370 - Visual Thinking",
+              "averageGPA": 2.8353448275862068
+            }
           ]
         }
       ]
@@ -481,33 +1606,114 @@
         {
           "section": "0. Ethnic Studies",
           "courses": [
-            "AG 2050 - Race, Ethnicity and Food Justice",
-            "EWS 2050 - Race, Ethnicity and Food Justice",
-            "AMM 1090 - Race and Ethnicity in Fashion",
-            "EWS 1090 - Race and Ethnicity in Fashion",
-            "AMM 1250 - Race, Ethnicity, and the American Consumer",
-            "EWS 1250 - Race, Ethnicity, and the American Consumer",
-            "ENG 2332 - Literature and the African American Experience",
-            "EWS 2332 - Literature and the African American Experience",
-            "EWS 1401 - Introduction to Ethnic Studies",
-            "EWS 2011 - African American Historical Experience",
-            "EWS 2021 - Latina and Latino American Historical Experience",
-            "EWS 2031 - Native American Historical Experience",
-            "EWS 2041 - Asian American Historical Experience",
-            "IGE 2600 - Digital Culture, Race, and Ethnicity",
-            "EWS 2600 - Digital Culture, Race, and Ethnicity",
-            "LA 2250 - The Japanese American Experience and the California Landscape",
-            "EWS 2250 - The Japanese American Experience and the California Landscape",
-            "NTR 2180 - Ethnic Studies of Food, Nutrition, and Health Disparities",
-            "EWS 2180 - Ethnic Studies of Food, Nutrition, and Health Disparities",
-            "PLS 2080 - Introduction to Race and Ethnic Politics",
-            "EWS 2080 - Introduction to Race and Ethnic Politics",
-            "SOC 3313 - Latina/o Sociology",
-            "EWS 3313 - Latina/o Sociology",
-            "TH 2210 - Race and Ethnicity on Stage and Screen",
-            "EWS 2210 - Race and Ethnicity on Stage and Screen",
-            "URP 1051 - Ethnic Communities, Places, and Urban Planning",
-            "EWS 1051 - Ethnic Communities, Places, and Urban Planning"
+            {
+              "courseCode": "AG 2050 - Race, Ethnicity and Food Justice",
+              "averageGPA": null
+            },
+            {
+              "courseCode": "EWS 2050 - Race, Ethnicity and Food Justice",
+              "averageGPA": null
+            },
+            {
+              "courseCode": "AMM 1090 - Race and Ethnicity in Fashion",
+              "averageGPA": null
+            },
+            {
+              "courseCode": "EWS 1090 - Race and Ethnicity in Fashion",
+              "averageGPA": null
+            },
+            {
+              "courseCode": "AMM 1250 - Race, Ethnicity, and the American Consumer",
+              "averageGPA": 2.3714285714285714
+            },
+            {
+              "courseCode": "EWS 1250 - Race, Ethnicity, and the American Consumer",
+              "averageGPA": 2.852054794520548
+            },
+            {
+              "courseCode": "ENG 2332 - Literature and the African American Experience",
+              "averageGPA": 2.9214285714285713
+            },
+            {
+              "courseCode": "EWS 2332 - Literature and the African American Experience",
+              "averageGPA": null
+            },
+            {
+              "courseCode": "EWS 1401 - Introduction to Ethnic Studies",
+              "averageGPA": 3.5670250896057345
+            },
+            {
+              "courseCode": "EWS 2011 - African American Historical Experience",
+              "averageGPA": 3.5366666666666666
+            },
+            {
+              "courseCode": "EWS 2021 - Latina and Latino American Historical Experience",
+              "averageGPA": 3.3819999999999992
+            },
+            {
+              "courseCode": "EWS 2031 - Native American Historical Experience",
+              "averageGPA": 3.13
+            },
+            {
+              "courseCode": "EWS 2041 - Asian American Historical Experience",
+              "averageGPA": 2.9967741935483874
+            },
+            {
+              "courseCode": "IGE 2600 - Digital Culture, Race, and Ethnicity",
+              "averageGPA": 3.3782608695652177
+            },
+            {
+              "courseCode": "EWS 2600 - Digital Culture, Race, and Ethnicity",
+              "averageGPA": null
+            },
+            {
+              "courseCode": "LA 2250 - The Japanese American Experience and the California Landscape",
+              "averageGPA": 3.1399999999999997
+            },
+            {
+              "courseCode": "EWS 2250 - The Japanese American Experience and the California Landscape",
+              "averageGPA": 3.2842105263157895
+            },
+            {
+              "courseCode": "NTR 2180 - Ethnic Studies of Food, Nutrition, and Health Disparities",
+              "averageGPA": 2.9944444444444445
+            },
+            {
+              "courseCode": "EWS 2180 - Ethnic Studies of Food, Nutrition, and Health Disparities",
+              "averageGPA": null
+            },
+            {
+              "courseCode": "PLS 2080 - Introduction to Race and Ethnic Politics",
+              "averageGPA": 2.902222222222223
+            },
+            {
+              "courseCode": "EWS 2080 - Introduction to Race and Ethnic Politics",
+              "averageGPA": null
+            },
+            {
+              "courseCode": "SOC 3313 - Latina/o Sociology",
+              "averageGPA": 3.361889250814332
+            },
+            {
+              "courseCode": "EWS 3313 - Latina/o Sociology",
+              "averageGPA": 3.164285714285714
+            },
+            {
+              "courseCode": "TH 2210 - Race and Ethnicity on Stage and Screen",
+              "averageGPA": 3.2642857142857147
+            },
+            {
+              "courseCode": "EWS 2210 - Race and Ethnicity on Stage and Screen",
+              "averageGPA": 3.6473684210526316
+            },
+            {
+              "courseCode": "URP 1051 - Ethnic Communities, Places, and Urban Planning",
+              "averageGPA": 3.414285714285714
+            },
+            {
+              "courseCode": "EWS 1051 - Ethnic Communities, Places, and Urban Planning",
+              "averageGPA": 3.4687500000000004
+            }
           ]
         }
       ]
