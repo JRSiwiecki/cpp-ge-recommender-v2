@@ -7,6 +7,12 @@ const headerStylingClasses = `m-3 text-center text-3xl text-white`;
 
 const linkHolderStylingClasses = `flex justify-center`;
 
+export const metadata = {
+  title: "CPP GE Recommender About",
+  description: `About page for CPP GE Recommender, 
+    containing information on how this application was created and the credits due.`,
+};
+
 export default function Page() {
   return (
     <main className="flex min-h-screen flex-col items-center bg-neutral-900 p-3">
