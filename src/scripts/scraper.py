@@ -158,7 +158,10 @@ def categorize_courses(scraped_class_areas, open_cpp_data, catalog_year: int) ->
 
                     # Find the corresponding OpenCPP API data for the course
                     for api_course in open_cpp_data:
-                        if course_data["courseCode"] in api_course["Label"]:
+                        if (
+                            get_course_label(course_data["courseCode"])
+                            in api_course["Label"]
+                        ):
                             course_data["averageGPA"] = api_course["AvgGPA"]
 
                     section_data["courses"].append(course_data)
@@ -184,7 +187,7 @@ def get_opencpp_api_data() -> dict:
     Returns:
         dict: Returns a dictionary/JSON object from the OpenCPP API data.
     """
-    response = requests.post("https://cpp-scheduler.herokuapp.com/data/courses/find")
+    response = requests.post("https://api.cppscheduler.com/data/courses/findAll")
     json_object = json.loads(response.text)
     return json_object
 
@@ -434,6 +437,25 @@ def get_course_title(full_course_name: str) -> str:
     start_marker = full_course_name.index("-") + 2
 
     return full_course_name[start_marker:]
+
+
+def get_course_label(full_course_name: str) -> str:
+    """
+    Used to search through OpenCPP API data.
+
+    Args:
+        full_course_name (str): The full course name, containing typically course code and name.
+
+    Returns:
+        str: The course label with the course name removed.
+    """
+
+    if not isinstance(full_course_name, str):
+        raise TypeError("Invalid full_course_name type, must be a string.")
+
+    # only want the course label before the " - " separating class code from title
+    end_marker = full_course_name.index("-") - 2
+    return full_course_name[:end_marker]
 
 
 def main():
