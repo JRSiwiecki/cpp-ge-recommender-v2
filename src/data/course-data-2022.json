@@ -9,11 +9,11 @@
           "courses": [
             {
               "courseCode": "COM 1100 - Public Speaking",
-              "averageGPA": 2.8257499999999998
+              "averageGPA": 2.927113742770587
             },
             {
               "courseCode": "COM 2204 - Advocacy and Argument",
-              "averageGPA": 2.773294346978558
+              "averageGPA": 3.7904347826086955
             }
           ]
         },
@@ -22,11 +22,11 @@
           "courses": [
             {
               "courseCode": "ENG 1101 - Stretch Composition II",
-              "averageGPA": null
+              "averageGPA": 2.9160714285714286
             },
             {
               "courseCode": "ENG 1103 - First Year Composition",
-              "averageGPA": null
+              "averageGPA": 2.812333333333333
             }
           ]
         },
@@ -93,7 +93,7 @@
             },
             {
               "courseCode": "GEO 1010L - Physical Geography Lab",
-              "averageGPA": 2.9839295542102366
+              "averageGPA": 3.4346534653465355
             },
             {
               "courseCode": "GSC 1100 - Water in a Changing World",
@@ -206,7 +206,7 @@
             },
             {
               "courseCode": "BIO 1150L - Basic Biology Laboratory",
-              "averageGPA": 3.1205452127659576
+              "averageGPA": 3.5029073288915806
             },
             {
               "courseCode": "BIO 1210 - Foundations of Biology: Energy, Matter, and Information",
@@ -247,11 +247,11 @@
             },
             {
               "courseCode": "MAT 1050 - College Algebra",
-              "averageGPA": null
+              "averageGPA": 3.1477124183006535
             },
             {
               "courseCode": "MAT 1052 - College Algebra Stretch II",
-              "averageGPA": null
+              "averageGPA": 2.3241877256317682
             },
             {
               "courseCode": "MAT 1055 - College Algebra with Support",
@@ -295,7 +295,7 @@
             },
             {
               "courseCode": "STA 1200 - Statistics with Applications",
-              "averageGPA": 2.389957264957265
+              "averageGPA": 2.873151750972763
             },
             {
               "courseCode": "STA 1202 - Statistics with Applications Stretch II",
@@ -303,7 +303,7 @@
             },
             {
               "courseCode": "STA 1205 - Statistics with Applications with Support",
-              "averageGPA": 2.389957264957265
+              "averageGPA": null
             },
             {
               "courseCode": "STA 1300 - Biostatistics",
@@ -396,7 +396,7 @@
             },
             {
               "courseCode": "EC 4441 - Industry Studies",
-              "averageGPA": 3.6999999999999997
+              "averageGPA": 3.2721153846153848
             },
             {
               "courseCode": "EGR 4810 - Project Design Principles and Applications",
@@ -508,7 +508,7 @@
             },
             {
               "courseCode": "PSY 3326 - Health Psychology",
-              "averageGPA": 3.470886075949368
+              "averageGPA": 3.4427803379416284
             },
             {
               "courseCode": "RS 3010 - Life Support Processes",
@@ -526,15 +526,15 @@
           "courses": [
             {
               "courseCode": "AH 2301 - World Art: Prehistory through Medieval Europe",
-              "averageGPA": 3.155752212389381
+              "averageGPA": 2.6724409448818895
             },
             {
               "courseCode": "AH 2302 - World Art: Renaissance through Modern Europe and the United States",
-              "averageGPA": 3.155752212389381
+              "averageGPA": 2.6085510688836107
             },
             {
               "courseCode": "AH 2303 - World Art: Asia",
-              "averageGPA": 3.155752212389381
+              "averageGPA": 3.1800947867298577
             },
             {
               "courseCode": "AH 2305 - World Art: Africa, Oceania, and Native America",
@@ -542,7 +542,7 @@
             },
             {
               "courseCode": "ARC 3610 - World Architecture before the Renaissance",
-              "averageGPA": 3.472289156626506
+              "averageGPA": 3.4313253012048186
             },
             {
               "courseCode": "ARC 3612 - World Architecture before the Renaissance Discussion",
@@ -627,7 +627,7 @@
             },
             {
               "courseCode": "ARC 1020 - Visual Literacy and Civilization: An Architect\u2019s View",
-              "averageGPA": 3.31651376146789
+              "averageGPA": 3.388357588357588
             },
             {
               "courseCode": "ARC 1022A - Visual Literacy and Civilization: An Architect\u2019s View Activity",
@@ -635,7 +635,7 @@
             },
             {
               "courseCode": "CHN 1111 - Elementary Chinese I",
-              "averageGPA": 3.300819672131147
+              "averageGPA": 3.5354948805460746
             },
             {
               "courseCode": "CHN 1112 - Elementary Chinese II",
@@ -643,7 +643,7 @@
             },
             {
               "courseCode": "CHN 2111 - Intermediate Chinese I",
-              "averageGPA": 3.5521739130434784
+              "averageGPA": 3.7574999999999994
             },
             {
               "courseCode": "CHN 2112 - Intermediate Chinese II",
@@ -651,7 +651,7 @@
             },
             {
               "courseCode": "CHN 2113 - Intermediate Chinese III",
-              "averageGPA": 3.5521739130434784
+              "averageGPA": null
             },
             {
               "courseCode": "ENG 2200 - Introduction to English Linguistics",
@@ -667,7 +667,7 @@
             },
             {
               "courseCode": "ENG 2330 - Introduction to Multicultural Literature in the U.S.",
-              "averageGPA": 2.9214285714285713
+              "averageGPA": 3.2906122448979596
             },
             {
               "courseCode": "ENG 2331 - Introduction to U.S. Latino/a Literature",
@@ -675,7 +675,7 @@
             },
             {
               "courseCode": "ENG 2332 - Literature and the African American Experience",
-              "averageGPA": 2.9214285714285713
+              "averageGPA": 3.168965517241379
             },
             {
               "courseCode": "EWS 2332 - Literature and the African American Experience",
@@ -707,27 +707,27 @@
             },
             {
               "courseCode": "ENG 2800 - Introduction to Folklore",
-              "averageGPA": 2.988888888888889
+              "averageGPA": 3.5239436619718307
             },
             {
               "courseCode": "ENG 2801 - Young Adult Literature",
-              "averageGPA": 2.988888888888889
+              "averageGPA": 3.5280898876404496
             },
             {
               "courseCode": "ENG 2803 - Fantasy and the Fantastic",
-              "averageGPA": 2.988888888888889
+              "averageGPA": 3.683471074380165
             },
             {
               "courseCode": "ENG 2880 - Science Fiction",
-              "averageGPA": 3.343220338983051
+              "averageGPA": 3.3508379888268154
             },
             {
               "courseCode": "ENG 2882 - War and Peace in Literature",
-              "averageGPA": 3.343220338983051
+              "averageGPA": 3.31
             },
             {
               "courseCode": "ENG 2883 - Women Writers",
-              "averageGPA": 3.343220338983051
+              "averageGPA": 3.0989583333333335
             },
             {
               "courseCode": "ENG 2884 - Contemporary Literature",
@@ -735,11 +735,11 @@
             },
             {
               "courseCode": "ENG 2885 - Introduction to Fiction",
-              "averageGPA": 3.343220338983051
+              "averageGPA": 3.295833333333334
             },
             {
               "courseCode": "FRE 1111 - Elementary French I",
-              "averageGPA": 3.434831460674157
+              "averageGPA": 3.5372233400402417
             },
             {
               "courseCode": "FRE 1112 - Elementary French II",
@@ -747,7 +747,7 @@
             },
             {
               "courseCode": "FRE 2111 - Intermediate French",
-              "averageGPA": 3.525
+              "averageGPA": 2.8666666666666667
             },
             {
               "courseCode": "FRE 2112 - Intermediate French Reading",
@@ -759,7 +759,7 @@
             },
             {
               "courseCode": "GER 1112 - Elementary German II",
-              "averageGPA": 3.370336391437309
+              "averageGPA": 3.3893939393939396
             },
             {
               "courseCode": "GER 2111 - Intermediate German I",
@@ -767,7 +767,7 @@
             },
             {
               "courseCode": "HST 1101 - World Civilizations to 1500",
-              "averageGPA": 3.932142857142857
+              "averageGPA": 2.723189465983906
             },
             {
               "courseCode": "HST 1102 - World Civilizations from 1500",
@@ -807,11 +807,11 @@
             },
             {
               "courseCode": "SPN 1112 - Elementary Spanish II",
-              "averageGPA": 3.4877849608710445
+              "averageGPA": 3.419172932330827
             },
             {
               "courseCode": "SPN 1110 - Introduction to the Spanish-Speaking World",
-              "averageGPA": 3.4877849608710445
+              "averageGPA": null
             },
             {
               "courseCode": "SPN 1130 - Spanish for Spanish Speakers I",
@@ -823,7 +823,7 @@
             },
             {
               "courseCode": "SPN 2112 - Intermediate Spanish II",
-              "averageGPA": 3.6635416666666667
+              "averageGPA": 3.330769230769231
             },
             {
               "courseCode": "SPN 2120 - Spanish for Spanish Speakers II",
@@ -892,7 +892,7 @@
             },
             {
               "courseCode": "ENG 4503 - Shakespeare before 1600",
-              "averageGPA": 3.496575342465754
+              "averageGPA": 3.2891719745222927
             },
             {
               "courseCode": "ENG 4740 - Chinese Civilization and Culture",
@@ -900,7 +900,7 @@
             },
             {
               "courseCode": "ENG 4880 - Modernism and Postmodernism",
-              "averageGPA": 3.4545454545454546
+              "averageGPA": 3.2336363636363634
             },
             {
               "courseCode": "EWS 3010 - Ethnic Identity",
@@ -924,27 +924,27 @@
             },
             {
               "courseCode": "HST 3306 - Modern India",
-              "averageGPA": 3.2241379310344827
+              "averageGPA": 2.6500000000000004
             },
             {
               "courseCode": "HST 3313 - The Middle East from the Rise of Islam to 1500",
-              "averageGPA": 3.011111111111111
+              "averageGPA": 3.0999999999999996
             },
             {
               "courseCode": "HST 3340 - History of American Institutions and Ideals, 1877-present",
-              "averageGPA": 3.497142857142857
+              "averageGPA": 2.9
             },
             {
               "courseCode": "HST 3352 - History and Culture of the British Empire",
-              "averageGPA": 3.1608695652173915
+              "averageGPA": 3.8
             },
             {
               "courseCode": "HST 3370 - History of California",
-              "averageGPA": 2.8117647058823527
+              "averageGPA": 2.8959649975692754
             },
             {
               "courseCode": "HST 3373 - History and Hollywood",
-              "averageGPA": 2.8117647058823527
+              "averageGPA": 3.1570866141732283
             },
             {
               "courseCode": "HST 4230 - Modern Science in World History",
@@ -956,11 +956,11 @@
             },
             {
               "courseCode": "HST 4408 - History of American Science and Technology",
-              "averageGPA": 2.8412393162393164
+              "averageGPA": 3.5484848484848484
             },
             {
               "courseCode": "HST 4433 - Nonviolence in the Modern World",
-              "averageGPA": 3.422857142857143
+              "averageGPA": 2.9239130434782608
             },
             {
               "courseCode": "IGE 3200 - Visions of Science and Technology",
@@ -1058,7 +1058,7 @@
           "courses": [
             {
               "courseCode": "HST 2201 - United States History to 1877",
-              "averageGPA": 2.8786102719033235
+              "averageGPA": 3.0039308176100628
             },
             {
               "courseCode": "HST 2202 - United States History, 1877-Present",
@@ -1112,11 +1112,11 @@
             },
             {
               "courseCode": "COM 3314 - Organizational Communication",
-              "averageGPA": 3.1666666666666665
+              "averageGPA": 2.87433962264151
             },
             {
               "courseCode": "COM 3327 - Intercultural Communication",
-              "averageGPA": 2.870434782608696
+              "averageGPA": 2.910407239819005
             },
             {
               "courseCode": "COM 4133 - Public Opinion, Propaganda and Mass Media",
@@ -1132,11 +1132,11 @@
             },
             {
               "courseCode": "COM 4447 - Political Communication",
-              "averageGPA": 2.8827586206896556
+              "averageGPA": 2.87734375
             },
             {
               "courseCode": "CRM 3325 - Mass Incarceration",
-              "averageGPA": 3.114861460957179
+              "averageGPA": null
             },
             {
               "courseCode": "CRM 3390 - Media and Crime",
@@ -1152,11 +1152,11 @@
             },
             {
               "courseCode": "EC 4441 - Industry Studies",
-              "averageGPA": 3.6999999999999997
+              "averageGPA": 3.2721153846153848
             },
             {
               "courseCode": "EC 4442 - Countrywide Economic Studies",
-              "averageGPA": 3.6999999999999997
+              "averageGPA": 3.5294117647058822
             },
             {
               "courseCode": "ECS 3400 - Language and Literacy in Multilingual Families and Communities",
@@ -1172,7 +1172,7 @@
             },
             {
               "courseCode": "ENG 4220 - Sociolinguistics",
-              "averageGPA": 3.405
+              "averageGPA": 3.392592592592593
             },
             {
               "courseCode": "EWS 3300 - Ethnicity and Families",
@@ -1212,7 +1212,7 @@
             },
             {
               "courseCode": "EWS 4250L - Gender, Power, and Emerging Technologies Laboratory",
-              "averageGPA": 3.65945945945946
+              "averageGPA": null
             },
             {
               "courseCode": "EWS 4310 - Ethnicity, Gender and Religion/Spirituality",
@@ -1244,7 +1244,7 @@
             },
             {
               "courseCode": "HST 3306 - Modern India",
-              "averageGPA": 3.2241379310344827
+              "averageGPA": 2.6500000000000004
             },
             {
               "courseCode": "HST 3315 - The Middle East from 1500",
@@ -1252,11 +1252,11 @@
             },
             {
               "courseCode": "HST 3324 - European Revolutions, 1789-1914",
-              "averageGPA": 3.071875
+              "averageGPA": 3.57027027027027
             },
             {
               "courseCode": "HST 3337 - Latin America since 1810",
-              "averageGPA": 3.338095238095238
+              "averageGPA": 2.7637681159420286
             },
             {
               "courseCode": "HST 4210 - History of the Scientific Revolution",
@@ -1272,15 +1272,15 @@
             },
             {
               "courseCode": "HST 4407 - History of American Workers, 1877-Present",
-              "averageGPA": 2.8412393162393164
+              "averageGPA": 3.35
             },
             {
               "courseCode": "HST 4408 - History of American Science and Technology",
-              "averageGPA": 2.8412393162393164
+              "averageGPA": 3.5484848484848484
             },
             {
               "courseCode": "HST 4433 - Nonviolence in the Modern World",
-              "averageGPA": 3.422857142857143
+              "averageGPA": 2.9239130434782608
             },
             {
               "courseCode": "IGE 3400 - Peoples and Cultures of Central Asia: Life along the Silk Road",
@@ -1356,7 +1356,7 @@
             },
             {
               "courseCode": "PLS 4811 - California Government",
-              "averageGPA": 2.8529411764705888
+              "averageGPA": 3.128528528528529
             },
             {
               "courseCode": "PLS 4815 - Environmental Politics and Policy",
@@ -1364,11 +1364,11 @@
             },
             {
               "courseCode": "PSY 3325 - Multicultural Psychology",
-              "averageGPA": 3.470886075949368
+              "averageGPA": 3.127617521367521
             },
             {
               "courseCode": "PSY 3326 - Health Psychology",
-              "averageGPA": 3.470886075949368
+              "averageGPA": 3.4427803379416284
             },
             {
               "courseCode": "PSY 4455 - Human Sexuality: Relationships",
@@ -1454,7 +1454,7 @@
             },
             {
               "courseCode": "ARC 1010 - Introduction to Architectural Design Theories and Methods",
-              "averageGPA": null
+              "averageGPA": 3.5100840336134453
             },
             {
               "courseCode": "AVS 2211 - Drugs and Society",
@@ -1470,7 +1470,7 @@
             },
             {
               "courseCode": "CLS 1101A - Freshman Experience",
-              "averageGPA": 3.206422018348624
+              "averageGPA": 3.3807339449541285
             },
             {
               "courseCode": "CPU 1540 - Exploring Contemporary Topics",
@@ -1486,7 +1486,7 @@
             },
             {
               "courseCode": "EGR 1000L - Engineering, Society, and You Laboratory",
-              "averageGPA": 3.3859891761876124
+              "averageGPA": 3.6927011494252873
             },
             {
               "courseCode": "ENV 1010 - Introduction to Design Theories and Methods",
@@ -1494,7 +1494,7 @@
             },
             {
               "courseCode": "ENV 1010L - Introduction to Design Theories and Methods Laboratory",
-              "averageGPA": 2.2951048951048945
+              "averageGPA": 2.346478873239437
             },
             {
               "courseCode": "EWS 1020 - Engaged Education: Integrating Knowledge, Learning and Success",
@@ -1574,7 +1574,7 @@
             },
             {
               "courseCode": "SCI 1010A - Science and Mathematics: Freshman Experience I Activity",
-              "averageGPA": 3.139344262295082
+              "averageGPA": 2.8666666666666667
             },
             {
               "courseCode": "SCI 1020A - Science and Mathematics: Freshman Experience II Activity",
@@ -1632,7 +1632,7 @@
             },
             {
               "courseCode": "ENG 2332 - Literature and the African American Experience",
-              "averageGPA": 2.9214285714285713
+              "averageGPA": 3.168965517241379
             },
             {
               "courseCode": "EWS 2332 - Literature and the African American Experience",
