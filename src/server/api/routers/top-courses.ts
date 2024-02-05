@@ -5,24 +5,42 @@ import type {
   Section,
   Area,
   CourseData,
+  TopCourses,
 } from "~/types/courseDataTypes";
-
-import { z } from "zod";
 
 import { createTRPCRouter, publicProcedure } from "~/server/api/trpc";
 
 export const topCoursesRouter = createTRPCRouter({
-  getTopCourses: publicProcedure
-    .input(
-      z.object({
-        numberOfCourses: z.number(),
-      }),
-    )
-    .query((options) => {
-      const numberOfCourses = options.input.numberOfCourses;
+  getTopCourses: publicProcedure.query(() => {
+    const topCourses: TopCourses = getTopCourses(latestCourseData);
 
-      const topCourses: CourseData = latestCourseData;
-
-      return { topCourses };
-    }),
+    return { topCourses };
+  }),
 });
+
+function getTopCourses(latestCourseData: CourseData): TopCourses {
+  const topCourses: TopCourses = {
+    areas: [],
+  };
+
+  const areas: Area[] = latestCourseData.areas;
+
+  // Sort courses by averageGPA in descending order
+  areas.forEach((currentArea: Area) => {
+    const sections: Section[] = currentArea.sections;
+
+    sections.forEach((currentSection: Section) => {
+      currentSection.courses.sort((a: Course, b: Course) => {
+        // If a class is null, treat its GPA as negative infinity to leave it at the bottom.
+        const aGPA = a.averageGPA ?? Number.NEGATIVE_INFINITY;
+        const bGPA = b.averageGPA ?? Number.NEGATIVE_INFINITY;
+
+        return bGPA - aGPA;
+      });
+    });
+
+    topCourses.areas.push(currentArea);
+  });
+
+  return topCourses;
+}
