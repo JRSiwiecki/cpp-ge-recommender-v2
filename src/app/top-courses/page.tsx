@@ -18,6 +18,63 @@ export default async function TopCourses() {
   return (
     <main className="flex min-h-screen flex-col items-center bg-neutral-900 p-3">
       <h1 className="text-center text-4xl text-white">Top Courses</h1>
+      <section className="rounded-md border p-2">
+        <h3 className="text-center text-xl font-semibold text-white">
+          Filters
+        </h3>
+        <div className="flex flex-col">
+          <div>
+            <input
+              type="number"
+              name="Number of courses to display"
+              id="number-of-courses"
+              min={0}
+              max={10}
+              className="w-20 rounded-md border px-2 py-1"
+            />
+            <label className="mx-2 text-white" htmlFor="number-of-courses">
+              Number of courses to display
+            </label>
+          </div>
+          <div>
+            <input
+              type="checkbox"
+              name="Display Language Classes"
+              id="language-filter "
+            />
+            <label className="mx-2 text-white" htmlFor="language-filter">
+              Display Language Classes
+            </label>
+          </div>
+          <div>
+            <input
+              type="checkbox"
+              name="Display Honors Classes"
+              id="honor-filter "
+            />
+            <label className="mx-2 text-white" htmlFor="honor-filter">
+              Display Honors Classes
+            </label>
+          </div>
+          <div>
+            <input type="checkbox" name="Display Labs" id="lab-filter " />
+            <label className="mx-2 text-white" htmlFor="lab-filter">
+              Display Labs
+            </label>
+          </div>
+          <div>
+            <input
+              type="checkbox"
+              name="Display Activities"
+              id="activity-filter "
+            />
+            <label className="mx-2 text-white" htmlFor="activity-filter">
+              Display Activities
+            </label>
+          </div>
+        </div>
+      </section>
+
       <div className="grid grid-cols-3 gap-1">
         {topCourses.areas.map((area) => (
           <div key={area.area} className="mx-2 my-3 rounded-md border p-2">
@@ -47,6 +104,14 @@ export default async function TopCourses() {
           </div>
         ))}
       </div>
+      <footer>
+        <p className="text-center text-white">
+          Note that section B3 contains no GEs.
+        </p>
+        <p className="text-center text-white">
+          The courses shown are based on the 2023 CPP GE catalog.
+        </p>
+      </footer>
     </main>
   );
 }
