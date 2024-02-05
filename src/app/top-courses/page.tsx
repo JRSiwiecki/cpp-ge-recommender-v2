@@ -20,18 +20,24 @@ export default async function TopCourses() {
       <h1 className="text-center text-4xl text-white">Top Courses</h1>
       <div className="grid grid-cols-3 gap-1">
         {topCourses.areas.map((area) => (
-          <div key={area.area} className="mb-4 rounded-md border">
+          <div key={area.area} className="mx-2 my-3 rounded-md border p-2">
             <h2 className="text-xl font-semibold text-white">{area.area}</h2>
-            <div className="grid grid-cols-2 gap-1">
+            <div className="grid grid-cols-3 gap-1">
               {area.sections.map((section) => (
-                <div key={section.section} className="mb-2 rounded-md border">
+                <div
+                  key={section.section}
+                  className="m-2 rounded-md border p-2"
+                >
                   <h3 className="text-lg font-semibold text-white">
                     {section.section}
                   </h3>
                   <ul>
                     {section.courses.map((course) => (
-                      <li key={course.courseCode} className="text-white">
-                        {course.courseCode} - {course.averageGPA}
+                      <li
+                        key={course.courseCode}
+                        className="mx-2 my-3 text-white"
+                      >
+                        ⭐ {course.courseCode} - {course.averageGPA?.toFixed(2)}
                       </li>
                     ))}
                   </ul>
