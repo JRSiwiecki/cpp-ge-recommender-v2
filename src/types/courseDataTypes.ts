@@ -17,3 +17,7 @@ export type CourseData = {
   year: number;
   areas: Area[];
 };
+
+export type TopCourses = {
+  areas: Area[];
+};
