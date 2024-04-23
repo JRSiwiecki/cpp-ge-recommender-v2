@@ -1,4 +1,4 @@
-function NumberFilter() {
+export default function NumberFilter() {
   return (
     <>
       <input
@@ -15,5 +15,3 @@ function NumberFilter() {
     </>
   );
 }
-
-export default NumberFilter;
