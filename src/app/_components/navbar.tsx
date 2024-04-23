@@ -14,7 +14,7 @@ export default function Navbar() {
         GE Recommender
       </Link>
 
-      <Link href="/" className={linkStylingClasses}>
+      <Link href="/top-courses" className={linkStylingClasses}>
         Top Courses
       </Link>
 
