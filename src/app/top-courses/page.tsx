@@ -20,7 +20,7 @@ export default function TopCourses() {
   const queryResult = api.topCourses.getTopCourses.useQuery();
 
   useEffect(() => {
-    setTopCourses(queryResult.data?.topCourses);
+    setTopCourses(queryResult.data?.topCourses ?? null);
   }, [queryResult.data]);
 
   useEffect(() => {
