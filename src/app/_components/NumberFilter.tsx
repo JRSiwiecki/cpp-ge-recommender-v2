@@ -1,8 +1,20 @@
-export default function NumberFilter() {
+interface NumberFilterProps {
+  value: number;
+  onChange: (newValue: number) => void;
+}
+
+const NumberFilter: React.FC<NumberFilterProps> = ({ value, onChange }) => {
+  const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const newValue = parseInt(event.target.value, 10);
+    onChange(newValue);
+  };
+
   return (
     <>
       <input
         type="number"
+        value={value}
+        onChange={handleChange}
         name="Number of courses to display"
         id="number-of-courses"
         min={0}
@@ -14,4 +26,6 @@ export default function NumberFilter() {
       </label>
     </>
   );
-}
+};
+
+export default NumberFilter;
