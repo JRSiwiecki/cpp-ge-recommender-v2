@@ -18,7 +18,7 @@ const NumberFilter: React.FC<NumberFilterProps> = ({ value, onChange }) => {
         name="Number of courses to display"
         id="number-of-courses"
         min={0}
-        max={10}
+        max={20}
         className="w-20 rounded-md border px-2 py-1"
       />
       <label className="mx-2 text-white" htmlFor="number-of-courses">
