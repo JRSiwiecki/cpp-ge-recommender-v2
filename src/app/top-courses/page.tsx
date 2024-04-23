@@ -30,18 +30,20 @@ export default function TopCourses() {
           area: area.area,
           sections: area.sections.map((section) => ({
             section: section.section,
-            courses: section.courses.filter((course) => {
+            courses: section.courses.filter((course, index) => {
               const courseCode = course.courseCode.toLowerCase();
               const courseMarker = courseCode[courseCode.indexOf("-") - 2];
 
-              return !(
-                (!displayLanguage &&
-                  ["chinese", "french", "spanish", "german"].some((language) =>
-                    courseCode.includes(language),
-                  )) ||
-                (!displayHonors && courseMarker === "h") ||
-                (!displayLabs && courseMarker === "l") ||
-                (!displayActivities && courseMarker === "a")
+              return (
+                !(
+                  (!displayLanguage &&
+                    ["chinese", "french", "spanish", "german"].some(
+                      (language) => courseCode.includes(language),
+                    )) ||
+                  (!displayHonors && courseMarker === "h") ||
+                  (!displayLabs && courseMarker === "l") ||
+                  (!displayActivities && courseMarker === "a")
+                ) && index < numCoursesToDisplay
               );
             }),
           })),
