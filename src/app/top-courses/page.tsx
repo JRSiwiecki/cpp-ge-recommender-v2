@@ -1,6 +1,7 @@
 import { api } from "~/trpc/server";
 
 import type { TopCourses } from "~/types/courseDataTypes";
+import CheckboxFilter from "../_components/CheckboxFilter";
 
 export const metadata = {
   title: "CPP GE Recommender Top Courses",
@@ -36,42 +37,16 @@ export default async function TopCourses() {
               Number of courses to display
             </label>
           </div>
-          <div>
-            <input
-              type="checkbox"
-              name="Display Language Classes"
-              id="language-filter "
-            />
-            <label className="mx-2 text-white" htmlFor="language-filter">
-              Display Language Classes
-            </label>
-          </div>
-          <div>
-            <input
-              type="checkbox"
-              name="Display Honors Classes"
-              id="honor-filter "
-            />
-            <label className="mx-2 text-white" htmlFor="honor-filter">
-              Display Honors Classes
-            </label>
-          </div>
-          <div>
-            <input type="checkbox" name="Display Labs" id="lab-filter " />
-            <label className="mx-2 text-white" htmlFor="lab-filter">
-              Display Labs
-            </label>
-          </div>
-          <div>
-            <input
-              type="checkbox"
-              name="Display Activities"
-              id="activity-filter "
-            />
-            <label className="mx-2 text-white" htmlFor="activity-filter">
-              Display Activities
-            </label>
-          </div>
+          <CheckboxFilter
+            name="DisplayLanguage"
+            label="Display Language Classes"
+          />
+          <CheckboxFilter name="DisplayHonors" label="Display Honors Classes" />
+          <CheckboxFilter name="Display Labs" label="Display Lab Classes" />
+          <CheckboxFilter
+            name="DisplayActivities"
+            label="Display Activity Classes"
+          />
         </div>
       </section>
 
