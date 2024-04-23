@@ -1,21 +1,63 @@
-import { api } from "~/trpc/server";
+"use client";
 
+import { api } from "~/trpc/react";
 import type { TopCourses } from "~/types/courseDataTypes";
 import CheckboxFilter from "../_components/CheckboxFilter";
 import NumberFilter from "../_components/NumberFilter";
+import { useEffect, useState } from "react";
 
-export const metadata = {
-  title: "CPP GE Recommender Top Courses",
-  description: `Top Courses page for CPP GE Recommender, 
-    containing the top GE courses by average GPA for each Area + Section at CPP.`,
-};
+export default function TopCourses() {
+  const [topCourses, setTopCourses] = useState<TopCourses | null>(null);
+  const [displayedCourses, setDisplayedCourses] = useState<TopCourses | null>(
+    null,
+  );
+  const [numCoursesToDisplay, setNumCoursesToDisplay] = useState(5);
+  const [displayLanguage, setDisplayLanguage] = useState(false);
+  const [displayHonors, setDisplayHonors] = useState(false);
+  const [displayLabs, setDisplayLabs] = useState(false);
+  const [displayActivities, setDisplayActivities] = useState(false);
 
-export default async function TopCourses() {
-  const queryResult = await api.topCourses.getTopCourses.query();
+  const queryResult = api.topCourses.getTopCourses.useQuery();
 
-  const topCourses: TopCourses = queryResult.topCourses;
+  useEffect(() => {
+    setTopCourses(queryResult.data?.topCourses);
+  }, [queryResult.data]);
 
-  console.log(topCourses);
+  useEffect(() => {
+    if (topCourses) {
+      const filteredCourses: TopCourses = {
+        areas: topCourses.areas.map((area) => ({
+          area: area.area,
+          sections: area.sections.map((section) => ({
+            section: section.section,
+            courses: section.courses.filter((course) => {
+              const courseCode = course.courseCode.toLowerCase();
+              const courseMarker = courseCode[courseCode.indexOf("-") - 2];
+
+              return !(
+                (!displayLanguage &&
+                  ["chinese", "french", "spanish", "german"].some((language) =>
+                    courseCode.includes(language),
+                  )) ||
+                (!displayHonors && courseMarker === "h") ||
+                (!displayLabs && courseMarker === "l") ||
+                (!displayActivities && courseMarker === "a")
+              );
+            }),
+          })),
+        })),
+      };
+
+      setDisplayedCourses(filteredCourses);
+    }
+  }, [
+    topCourses,
+    numCoursesToDisplay,
+    displayLanguage,
+    displayHonors,
+    displayLabs,
+    displayActivities,
+  ]);
 
   return (
     <main className="flex min-h-screen flex-col items-center bg-neutral-900 p-3">
@@ -24,23 +66,40 @@ export default async function TopCourses() {
         <h3 className="text-center text-xl font-semibold text-white">
           Filters
         </h3>
-        <NumberFilter />
+        <NumberFilter
+          onChange={setNumCoursesToDisplay}
+          value={numCoursesToDisplay}
+        />
         <div className="flex flex-col">
           <CheckboxFilter
             name="DisplayLanguage"
             label="Display Language Classes"
+            onChange={setDisplayLanguage}
+            checked={displayLanguage}
           />
-          <CheckboxFilter name="DisplayHonors" label="Display Honors Classes" />
-          <CheckboxFilter name="Display Labs" label="Display Lab Classes" />
+          <CheckboxFilter
+            name="DisplayHonors"
+            label="Display Honors Classes"
+            onChange={setDisplayHonors}
+            checked={displayHonors}
+          />
+          <CheckboxFilter
+            name="Display Labs"
+            label="Display Lab Classes"
+            onChange={setDisplayLabs}
+            checked={displayLabs}
+          />
           <CheckboxFilter
             name="DisplayActivities"
             label="Display Activity Classes"
+            onChange={setDisplayActivities}
+            checked={displayActivities}
           />
         </div>
       </section>
 
       <div className="grid grid-cols-3 gap-1">
-        {topCourses.areas.map((area) => (
+        {displayedCourses?.areas.map((area) => (
           <div key={area.area} className="mx-2 my-3 rounded-md border p-2">
             <h2 className="text-xl font-semibold text-white">{area.area}</h2>
             <div className="grid grid-cols-3 gap-1">
