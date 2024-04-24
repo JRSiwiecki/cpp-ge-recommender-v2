@@ -30,12 +30,12 @@ export default function TopCourses() {
           area: area.area,
           sections: area.sections.map((section) => ({
             section: section.section,
-            courses: section.courses.filter((course, index) => {
-              const courseCode = course.courseCode.toLowerCase();
-              const courseMarker = courseCode[courseCode.indexOf("-") - 2];
+            courses: section.courses
+              .filter((course) => {
+                const courseCode = course.courseCode.toLowerCase();
+                const courseMarker = courseCode[courseCode.indexOf("-") - 2];
 
-              return (
-                !(
+                return !(
                   (!displayLanguage &&
                     ["chinese", "french", "spanish", "german"].some(
                       (language) => courseCode.includes(language),
@@ -43,9 +43,9 @@ export default function TopCourses() {
                   (!displayHonors && courseMarker === "h") ||
                   (!displayLabs && courseMarker === "l") ||
                   (!displayActivities && courseMarker === "a")
-                ) && index < numCoursesToDisplay
-              );
-            }),
+                );
+              })
+              .slice(0, numCoursesToDisplay),
           })),
         })),
       };
